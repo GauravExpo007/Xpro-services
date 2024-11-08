@@ -1,8 +1,8 @@
-<div class="p-10 md:py-20">
+<div class="p-10 md:py-20 font-poppins">
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
         <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Why Choose <span
                 class="text-orange-400 font-bold">Xpro?</span></h2>
-        <p>We simplify planning, boost engagement, and create unforgettable experiences.</p>
+        <p class="text-slate-500">We simplify planning, boost engagement, and create unforgettable experiences.</p>
     </section>
 
     {{-- Card section-1 --}}
@@ -17,7 +17,7 @@
                 <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                     Multiple Events
                 </h4>
-                <p>
+                <p class="text-slate-500">
                     Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                     your reach now!
                 </p>
@@ -34,7 +34,7 @@
                 <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                     Event Management
                 </h4>
-                <p>
+                <p class="text-slate-500">
                     Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                     your reach now!
                 </p>
@@ -51,7 +51,7 @@
                 <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                     Payment Gateways
                 </h4>
-                <p>
+                <p class="text-slate-500">
                     Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                     your reach now!
                 </p>
@@ -68,7 +68,7 @@
                 <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                     Venue Management
                 </h4>
-                <p>
+                <p class="text-slate-500">
                     Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                     your reach now!
                 </p>
@@ -94,7 +94,7 @@
             <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                 Speaker Management
             </h4>
-            <p>
+            <p class="text-slate-500">
                 Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                 your reach now!
             </p>
@@ -111,7 +111,7 @@
             <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                 Multilingual Support
             </h4>
-            <p>
+            <p class="text-slate-500">
                 Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                 your reach now!
             </p>
@@ -128,7 +128,7 @@
             <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                 Page Builder
             </h4>
-            <p>
+            <p class="text-slate-500">
                 Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                 your reach now!
             </p>
@@ -145,7 +145,7 @@
             <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
                 Theme Customizer
             </h4>
-            <p>
+            <p class="text-slate-500">
                 Host various events effortlessly with Eventchamp—conferences, workshops, expos, and more. Expand
                 your reach now!
             </p>

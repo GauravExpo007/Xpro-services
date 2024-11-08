@@ -49,7 +49,7 @@
             </div>
             <ul class="flex flex-col justify-items-start gap-5">
                 <li class="flex gap-5 ">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" />
+                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager"/>
                     <div> <span>
                             Top 20 Event and Conference Countries</span>
                         <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
@@ -58,7 +58,7 @@
                     </div>
                 </li>
                 <li class="flex gap-5">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" />
+                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
                     <div> <span> 5 Ideas for Fun Family Activities</span>
                         <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
                                 aria-hidden="true"></i> Lists <i class="fa fa-clock-o text-orange-400"></i> 4 Min
@@ -66,7 +66,7 @@
                     </div>
                 </li>
                 <li class="flex gap-5">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" />
+                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
                     <div> <span>
                             Budgets for Business Events</span>
                         <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
@@ -133,7 +133,7 @@
     <div class=" border-t-2 border-zinc-500 pt-10 pb-5">
         <div class="px-5 md:px-20 flex flex-col md:flex-row justify-between items-center">
 
-            <img src="assets/Xpro Logo Final.jpg" alt="Xpro Services Company Logo" width="100" />
+            <img src="assets/Xpro Logo Final.jpg" alt="Xpro Services Company Logo" width="100" loading="eager" />
             <span>
                 Copyright © 2023 Xpro Services - All rights reserved
             </span>

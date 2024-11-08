@@ -1,8 +1,8 @@
-<div class="p-10 md:py-20">
+<div class="p-10 md:py-20 font-poppins">
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
         <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Upcoming <span
                 class="text-orange-400 font-bold">Events</span></h2>
-        <p>Join us for thrilling events! Live music, workshops, art exhibits, and more! Mark your calendars and don't
+       <p class="text-slate-500">Join us for thrilling events! Live music, workshops, art exhibits, and more! Mark your calendars and don't
             miss out!</p>
     </section>
 
@@ -46,8 +46,8 @@
         <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 md:px-10">
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
-                    <a href="/blog-1" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event1.webp" alt="exhibition_stand_1">
+                    <a href="/event-1" target="_self" rel="noopener noreferrer" aria-label="event-1">
+                        <img class="relative" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -63,7 +63,7 @@
                         Megeve Winter Party
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition uppercase duration-300 ease-in-out">
                             Travel
                         </a>
@@ -74,11 +74,12 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                    <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
@@ -86,7 +87,7 @@
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event2.webp" alt="exhibition_stand_2">
+                        <img class="relative" src="assets/events/event2.webp" alt="exhibition_stand_2" loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -102,7 +103,7 @@
                         Eventchamp Conference
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition uppercase duration-300 ease-in-out">
                             Business
                         </a>
@@ -113,11 +114,12 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                   <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
@@ -125,7 +127,8 @@
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event3.webp" alt="exhibition_stand_3">
+                        <img class="relative" src="assets/events/event3.webp" alt="exhibition_stand_3"
+                            loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -141,7 +144,7 @@
                         Walking on the Village Mountain
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-3"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-3"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 uppercase transition duration-300 ease-in-out">
                             Travel
                         </a>
@@ -152,11 +155,12 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                   <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
@@ -164,7 +168,8 @@
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event4.webp" alt="exhibition_stand_4">
+                        <img class="relative" src="assets/events/event4.webp" alt="exhibition_stand_4"
+                            loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -180,7 +185,7 @@
                         Soccer Cup Final
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white uppercase font-semibold p-2 transition duration-300 ease-in-out">
                             Sports
                         </a>
@@ -191,11 +196,12 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                   <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
@@ -203,7 +209,8 @@
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event5.webp" alt="exhibition_stand_5">
+                        <img class="relative" src="assets/events/event5.webp" alt="exhibition_stand_5"
+                            loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -219,7 +226,7 @@
                         Xtra Technology Conference
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 uppercase transition duration-300 ease-in-out">
                             Technology
                         </a>
@@ -230,11 +237,12 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                   <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
@@ -242,7 +250,8 @@
             <div class="w-full flex flex-col justify-center md:hover:scale-105 duration-500">
                 <div class="relative">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                        <img class="relative" src="assets/events/event6.webp" alt="exhibition_stand_6">
+                        <img class="relative" src="assets/events/event6.webp" alt="exhibition_stand_6"
+                            loading="lazy" />
                     </a>
 
                     <div class="absolute flex justify-center bottom-10 left-5 uppercase">
@@ -258,7 +267,7 @@
                         The Future of Currencies
                     </h3>
                     <div class="flex gap-5 md:gap-10 items-center">
-                          <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
+                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="inline-block w-fit my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 uppercase transition duration-300 ease-in-out">
                             Technology
                         </a>
@@ -269,17 +278,18 @@
                             <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
                         </span>
                     </div>
-                    <p>
-                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of drinks, this is the perfect way to kick off the season.
+                   <p class="text-slate-500">
+                        Join us for the ultimate winter party at Megeve. With live music, delicious food, and plenty of
+                        drinks, this is the perfect way to kick off the season.
                     </p>
-                      
-                
+
+
                 </div>
 
             </div>
 
-            
-         
+
+
         </div>
 
         <div class="flex justify-center bottom-10 left-5 uppercase">
@@ -296,7 +306,8 @@
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 md:px-10">
             <div class="relative">
                 <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp" alt="upcoming_event">
+                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp"
+                        alt="upcoming_event" loading="lazy" />
                 </a>
 
                 <div class="absolute flex justify-center top-20 left-28 xl:top-28 lg:left-10 uppercase">
@@ -309,7 +320,8 @@
 
             <div class="relative">
                 <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp" alt="ongoing_event">
+                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp"
+                        alt="ongoing_event" loading="lazy" />
                 </a>
 
                 <div class="absolute flex justify-center top-20 left-28 xl:top-28 lg:left-12 uppercase ">
@@ -322,7 +334,8 @@
 
             <div class="relative">
                 <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp" alt="upcoming_event">
+                    <img class="relative opacity-100 hover:opacity-85 duration-200" src="assets/events/event3.webp"
+                        alt="upcoming_event" loading="lazy" />
                 </a>
 
                 <div class="absolute flex justify-center top-20 left-32 xl:top-28 lg:left-20 uppercase">

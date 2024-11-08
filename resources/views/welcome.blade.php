@@ -7,45 +7,40 @@
     @include('components.featured-event')
     @include('components.why-choose-us')
     @include('components.popular-venue')
-
 @endsection  
 
     @push('scripts')
-               <!-- JavaScript for Navbar Toggle -->
-       <script>
-        function toggleNavbar() {
-            const navbarMenu = document.getElementById("navbarMenu");
-            navbarMenu.classList.toggle("active");
-        }
-    </script>
+   <!-- JavaScript for Navbar Toggle and Scroll Effect -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const navbarToggler = document.getElementById("navbarToggler");
+        const navbarClose = document.getElementById("navbarClose");
+        const mobileNavbarMenu = document.getElementById("mobileNavbarMenu");
 
-    <script>
-        // JavaScript to handle scroll effect on header
+        // Toggle menu visibility on clicking the hamburger button
+        navbarToggler.addEventListener('click', function () {
+            mobileNavbarMenu.classList.remove("hidden");
+            navbarToggler.classList.add("hidden");
+            navbarClose.classList.remove("hidden");
+        });
+
+        // Hide the menu on clicking the close button
+        navbarClose.addEventListener('click', function () {
+            mobileNavbarMenu.classList.add("hidden");
+            navbarToggler.classList.remove("hidden");
+            navbarClose.classList.add("hidden");
+        });
+
+        // Scroll effect on header
         window.addEventListener("scroll", function () {
             const header = document.querySelector("header");
-            const scrollPosition = window.scrollY;
-
-            if (scrollPosition > 100) { // Change 100 to the point you want the effect to trigger
-                header.classList.add("scrolled");
+            if (window.scrollY > 100) {
+                header.classList.add("bg-black", "bg-opacity-90");
             } else {
-                header.classList.remove("scrolled");
+                header.classList.remove("bg-black", "bg-opacity-90");
             }
         });
-    </script>
-
-{{-- Event carousel JavaScript --}}
-<script>
-const container = document.getElementById('carousel-container');
-const cardWidth = container.firstElementChild.offsetWidth + 20; // card width + gap
-
-document.getElementById('nextButton').onclick = () => {
-    container.scrollBy({ left: cardWidth, behavior: 'smooth' });
-};
-
-document.getElementById('prevButton').onclick = () => {
-    container.scrollBy({ left: -cardWidth, behavior: 'smooth' });
-};
-
+    });
 </script>
     @endpush
 
