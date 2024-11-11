@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\DownloadBrochure;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,13 @@ Route::get('/contact', function () {
 Route::get('/blog_list1', function () {
     return view('blog-list1');
 });
+
+// Route::get('/testroute', function() {
+//     $name = "Raju";
+
+//     // The email sending is done using the to method on the Mail facade
+//     Mail::to('tempemaileeeee@gmail.com')->send(new DownloadBrochure($name));
+// });
+
+
+// donwnload brochure
