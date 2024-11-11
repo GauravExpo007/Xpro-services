@@ -21,7 +21,8 @@
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -33,14 +34,16 @@
                                     2024</span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
 
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-2">
-                                <img src="assets/events/event2.webp" alt="exhibition_stand_2" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event2.webp" alt="exhibition_stand_2" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -52,13 +55,15 @@
                                     2024</span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-3">
-                                <img src="assets/events/event3.webp" alt="exhibition_stand_3" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event3.webp" alt="exhibition_stand_3" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -70,13 +75,15 @@
                                     2024</span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-4">
-                                <img src="assets/events/event4.webp" alt="exhibition_stand_4" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event4.webp" alt="exhibition_stand_4" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -88,13 +95,15 @@
                                     2024</span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-5">
-                                <img src="assets/events/event5.webp" alt="exhibition_stand_5" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event5.webp" alt="exhibition_stand_5" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -106,14 +115,16 @@
                                     2024</span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
 
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-6">
-                                <img src="assets/events/event6.webp" alt="exhibition_stand_6" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event6.webp" alt="exhibition_stand_6" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -126,13 +137,15 @@
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i>
                                     France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full" loading="lazy"/>
+                                <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full"
+                                    loading="lazy" />
                             </a>
                         </div>
                         <div class="relative flex flex-col justify-center p-5">
@@ -145,7 +158,8 @@
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i>
                                     France</span>
                             </div>
-                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                            <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music,
+                                food, and drinks.</p>
                         </div>
                     </div>
                     <!-- Add more cards as needed -->
@@ -155,7 +169,7 @@
             <!-- Carousel Controls -->
             <div class="flex justify-center items-center gap-5 md:gap-10 mt-6">
                 <button id="prevButton-events"
-                    class="bg-white border-2 border-[#ddb60a] rounded-full p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
+                    class="bg-white border-2 border-[#ddb60a] rounded-xl p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
                     <i class="fa fa-chevron-left"></i>
                 </button>
 
@@ -165,7 +179,7 @@
                 </a>
 
                 <button id="nextButton-events"
-                    class="bg-white border-2 border-[#ddb60a] rounded-full p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
+                    class="bg-white border-2 border-[#ddb60a] rounded-xl p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
                     <i class="fa fa-chevron-right"></i>
                 </button>
             </div>

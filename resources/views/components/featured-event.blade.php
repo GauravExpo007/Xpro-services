@@ -2,7 +2,9 @@
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
         <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Featured <span
                 class="text-[#ddb60a] font-bold">Events</span></h2>
-        <p class="text-slate-500">Exciting concerts, workshops, festivals & more - dive into a world of unforgettable experiences!</p>
+        <p class="text-gray-500 text-lg">Exciting concerts, workshops, festivals & more - dive into a world of
+            unforgettable
+            experiences!</p>
     </section>
 
     {{-- Card section --}}
@@ -10,147 +12,167 @@
     <section class="relative w-full overflow-hidden">
         <!-- Carousel Container -->
         <div id="carousel-container"
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 overflow-x-auto scroll-smooth gap-5 w-full">
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overflow-x-auto scroll-smooth gap-5 w-full">
             <!-- Cards Wrapper -->
             <div id="carousel-items" class="flex gap-5 py-20">
                 <!-- Card 1 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                            <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full"  loading="lazy"/>
+                            <img src="assets/events/event1.webp" alt="exhibition_stand_1" class="w-full h-auto"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music, food,
+                            and drinks.</p>
                     </div>
                 </div>
                 <!-- Repeat the structure for other cards (Card 2, Card 3, etc.) -->
                 <!-- Card 2 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-2">
-                            <img src="assets/events/event2.webp" alt="exhibition_stand_2" class="w-full"  loading="lazy"/>
+                            <img src="assets/events/event2.webp" alt="exhibition_stand_2" class="w-full h-auto"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music, food,
+                            and drinks.</p>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-3">
-                            <img src="assets/events/event3.webp" alt="exhibition_stand_3" class="w-full" loading="lazy"/>
+                            <img src="assets/events/event3.webp" alt="exhibition_stand_3" class="w-full h-auto"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music, food,
+                            and drinks.</p>
                     </div>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-2">
-                            <img src="assets/events/event4.webp" alt="exhibition_stand_4" class="w-full" loading="lazy"/>
+                            <img src="assets/events/event4.webp" alt="exhibition_stand_4" class="w-full h-auto"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music, food,
+                            and drinks.</p>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <!-- Card 5 -->
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-5">
-                            <img src="assets/events/event5.webp" alt="exhibition_stand_5" class="w-full" loading="lazy"/>
+                            <img src="assets/events/event5.webp" alt="exhibition_stand_5" class="w-full"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music,
+                            food,
+                            and drinks.</p>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+                <!-- Card 6 -->
+                <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-6">
-                            <img src="assets/events/event6.webp" alt="exhibition_stand_6" class="w-full" loading="lazy"/>
+                            <img src="assets/events/event6.webp" alt="exhibition_stand_6" class="w-full h-auto"
+                                loading="lazy" />
                         </a>
                     </div>
                     <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
+                        <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
+                        <div class="flex items-center space-x-6 text-gray-600">
                             <a href="#"
                                 class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            <div class="flex gap-5">
+
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
+                                    2024</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
+                            </div>
                         </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
+                        <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
+                            music,
+                            food,
+                            and drinks.</p>
                     </div>
                 </div>
-                <!-- Card 2 -->
-                <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
-                    <div>
-                        <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-2">
-                            <img src="assets/events/event3.webp" alt="exhibition_stand_2" class="w-full" loading="lazy"/>
-                        </a>
-                    </div>
-                    <div class="relative flex flex-col justify-center p-5">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Megeve Winter Party</h3>
-                        <div class="flex gap-5 md:gap-10 items-center">
-                            <a href="#"
-                                class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
-                            <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                2024</span>
-                            <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
-                        </div>
-                        <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
-                    </div>
-                </div>
+
                 <!-- Add other cards (If needed) -->
             </div>
         </div>

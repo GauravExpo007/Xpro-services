@@ -49,7 +49,7 @@
             </div>
             <ul class="flex flex-col justify-items-start gap-5">
                 <li class="flex gap-5 ">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager"/>
+                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
                     <div> <span>
                             Top 20 Event and Conference Countries</span>
                         <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
@@ -88,36 +88,36 @@
                     connected through our suite of mobile solutions.
                 </p>
                 <div class="grid grid-cols-2 gap-5">
-                    <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
-                            href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
+                    <div class="flex justify-center items-center">
+                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
+                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>
                             <div> Download Via <br />
                                 Apple Store </div>
                         </a>
                     </div>
-                    <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
-                            href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
+                    <div class="flex justify-center items-center">
+                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
+                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-windows text-6xl pr-5" aria-hidden="true"></i>
                             <div> Download Via <br />
                                 Window </div>
                         </a>
                     </div>
-                    <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
-                            href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
+                    <div class="flex justify-center items-center">
+                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
+                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-amazon text-6xl pr-5" aria-hidden="true"></i>
                             <div> Download Via <br />
                                 Amazon </div>
                         </a>
                     </div>
-                    <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
-                            href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
+                    <div class="flex justify-center items-center">
+                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
+                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>
                             <div> Download Via <br />
