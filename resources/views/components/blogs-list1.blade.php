@@ -24,7 +24,7 @@
                     <ul id="categoryDropdown"
                         class="hidden absolute mt-2 bg-white text-black rounded-lg shadow-lg w-full transition-all duration-300">
                         <li onclick="selectOption('categoryButton', 'Category')"
-                            class="flex justify-between items-center px-4 py-2 text-orange-400 hover:bg-gray-200 cursor-pointer">
+                            class="flex justify-between items-center px-4 py-2 text-[#ddb60a] hover:bg-gray-200 cursor-pointer">
                             Category <i class="fa fa-anchor" aria-hidden="true"></i></li>
                         <li onclick="selectOption('categoryButton', 'Art')"
                             class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Art</li>
@@ -49,7 +49,7 @@
                     <ul id="locationDropdown"
                         class="hidden absolute mt-2 bg-white text-black rounded-lg shadow-lg w-full transition-all duration-300">
                         <li onclick="selectOption('locationButton', 'Location')"
-                            class="flex justify-between items-center px-4 py-2 text-orange-400 hover:bg-gray-200 cursor-pointer">
+                            class="flex justify-between items-center px-4 py-2 text-[#ddb60a] hover:bg-gray-200 cursor-pointer">
                             Location <i class="fa fa-anchor" aria-hidden="true"></i></li>
                         <li onclick="selectOption('locationButton', 'England')"
                             class="px-4 py-2 hover:bg-gray-200 cursor-pointer">England</li>
@@ -74,7 +74,7 @@
                     <ul id="statusDropdown"
                         class="hidden absolute mt-2 bg-white text-black rounded-lg shadow-lg w-full transition-all duration-300">
                         <li onclick="selectOption('statusButton', 'Status')"
-                            class="flex justify-between items-center px-4 py-2 text-orange-400 hover:bg-gray-200 cursor-pointer">
+                            class="flex justify-between items-center px-4 py-2 text-[#ddb60a] hover:bg-gray-200 cursor-pointer">
                             Status <i class="fa fa-anchor" aria-hidden="true"></i></li>
                         <li onclick="selectOption('statusButton', 'Upcoming')"
                             class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Upcoming</li>
@@ -102,7 +102,7 @@
                     <ul id="sortByDropdown"
                         class="hidden absolute mt-2 bg-white text-black rounded-lg z-50 shadow-lg w-full transition-all duration-300">
                         <li onclick="selectOption('sortByButton', 'Sort by')"
-                            class="flex justify-between items-center px-4 py-2 text-orange-400 hover:bg-gray-200 cursor-pointer">
+                            class="flex justify-between items-center px-4 py-2 text-[#ddb60a] hover:bg-gray-200 cursor-pointer">
                             Sort by <i class="fa fa-anchor" aria-hidden="true"></i></li>
                         <li onclick="selectOption('sortByButton', 'Start date')"
                             class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Start date</li>
@@ -127,7 +127,7 @@
               
                 <!-- Search Button -->
                 <button type="submit"
-                    class="w-96 xl:w-80 mx-auto px-10 md:px-20 py-3 rounded-lg duration-500 bg-orange-400 text-white font-semibold rounded-r-md border-2 border-orange-400 hover:text-orange-400 hover:border-orange-400 hover:bg-opacity-0 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    class="w-96 xl:w-80 mx-auto px-10 md:px-20 py-3 rounded-lg duration-500 bg-[#ddb60a] text-white font-semibold rounded-r-md border-2 border-[#ddb60a] hover:text-[#ddb60a] hover:border-[#ddb60a] hover:bg-opacity-0 focus:outline-none focus:ring-2 focus:ring-orange-500">
                     Search
                 </button>
             </form>
@@ -150,18 +150,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 Megeve Winter Party
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-10 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-10 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Travel
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -173,13 +173,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
 
@@ -197,18 +197,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-2"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 Eventchamp Conference
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-8 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-8 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Business
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -220,13 +220,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
                         </div>
@@ -243,18 +243,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-3"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 Walking on the Village
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-10 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-10 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Travel
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -266,13 +266,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
                         </div>
@@ -290,18 +290,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-4"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 Soccer Cup Final
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-8 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-8 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Sports
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -313,13 +313,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
 
@@ -337,18 +337,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 Xtra Technology Conference
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-3 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-3 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Technology
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -360,13 +360,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
                         </div>
@@ -383,18 +383,18 @@
 
                     <div class="absolute flex flex-col -bottom-48 bg-white left-8  w-[90%]">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-6"
-                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-orange-400 text-orange-400 font-semibold p-2 transition duration-300 ease-in-out">
+                            class="inline-block px-6 py-3 border-t-2 rounded-xl border-[#ddb60a] text-[#ddb60a] font-semibold p-2 transition duration-300 ease-in-out">
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">
                                 The Future of Currencies
                             </h3>
                         </a>
                         <div class="flex gap-5 md:gap-10 items-center px-5">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
-                                class="inline-block text-lg w-fit my-6 px-3 py-2 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold p-2 transition  duration-300 ease-in-out">
+                                class="inline-block text-lg w-fit my-6 px-3 py-2 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold p-2 transition  duration-300 ease-in-out">
                                 Technology
                             </a>
                             <span>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17, 2024
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17, 2024
                             </span>
 
                         </div>
@@ -406,13 +406,13 @@
                         <div class="flex gap-5 md:gap-10 items-center px-5">
 
                             <a>
-                                <i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> Showing
+                                <i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> Showing
                             </a>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
-                                <i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France
+                                <i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France
                             </a>
                             <div class="flex items-center">
-                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-orange-400" aria-hidden="true"></i>$
+                                <i class="fa fa-tag p-3 text-xl md:text-2xl text-[#ddb60a]" aria-hidden="true"></i>$
                                 150
                             </div>
                         </div>

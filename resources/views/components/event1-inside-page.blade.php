@@ -5,11 +5,11 @@
             class="text-white bg-black bg-opacity-75 p-5 py-40 md:p-10 md:py-40 lg:p-20 lg:py-56 flex flex-col gap-5 md:gap-10">
             <h2 class="text-white text-3xl md:text-5xl lg:text-7xl font-semibold">Megeve Winter Party</h2>
             <div class="flex gap-3 items-center">
-                <a href="/" target="_self" rel="noopener noreferrer" class="hover:text-orange-400">Home</a><i
+                <a href="/" target="_self" rel="noopener noreferrer" class="hover:text-[#ddb60a]">Home</a><i
                     class="fa fa-angle-double-right text-white" aria-hidden="true"></i>
-                <a href="#" target="_self" rel="noopener noreferrer" class="hover:text-orange-400">Events</a><i
+                <a href="#" target="_self" rel="noopener noreferrer" class="hover:text-[#ddb60a]">Events</a><i
                     class="fa fa-angle-double-right text-white" aria-hidden="true"></i> <span
-                    class="text-orange-300 underline underline-offset-4">
+                    class="text-[#ddb60a] underline underline-offset-4">
                     Megeve Winter Party</span>
             </div>
         </div>
@@ -52,19 +52,19 @@
                     <div class="flex justify-center gap-3">
                         <div class="flex justify-center">
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                                class="inline-block px-6 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                                class="inline-block px-6 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                                 Business
                             </a>
                         </div>
                         <div class="flex justify-center">
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                                class="inline-block px-6 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                                class="inline-block px-6 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                                 Conference
                             </a>
                         </div>
                         <div class="flex justify-center">
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                                class="inline-block px-6 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                                class="inline-block px-6 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                                 Events
                             </a>
                         </div>
@@ -73,13 +73,13 @@
                     <div class="flex justify-center gap-3">
                         <div class="flex justify-center">
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                                class="inline-block px-6 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                                class="inline-block px-6 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                                 Hotel
                             </a>
                         </div>
                         <div class="flex justify-center">
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                                class="inline-block px-6 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                                class="inline-block px-6 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-xl text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                                 Meetup
                             </a>
                         </div>
@@ -94,23 +94,23 @@
                         <li class="flex gap-5 pt-5 text-white">
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i
-                                    class="fa fa-facebook-f rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                    class="fa fa-facebook-f rounded-full border-2 border-[#ddb60a] p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i
-                                    class="fa fa-twitter rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                    class="fa fa-twitter rounded-full border-2 border-[#ddb60a] p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i
-                                    class="fa fa-instagram rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                    class="fa fa-instagram rounded-full border-2 border-[#ddb60a] p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i
-                                    class="fa fa-youtube-play rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                    class="fa fa-youtube-play rounded-full border-2 border-[#ddb60a] p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i
-                                    class="fa fa-linkedin rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                    class="fa fa-linkedin rounded-full border-2 border-[#ddb60a] p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                             </a>
                         </li>
                     </ul>
@@ -129,16 +129,16 @@
                         Event Details
                     </span>
                     <span class="flex gap-3">
-                        <i class="fa fa-heart-o border-2 rounded-xl px-4 py-3 flex gap-3 hover:text-white hover:bg-orange-300 duration-300"
+                        <i class="fa fa-heart-o border-2 rounded-xl px-4 py-3 flex gap-3 hover:text-white hover:bg-[#ddb60a] duration-300"
                             aria-hidden="true">3</i>
                         <i
-                            class="fa fa-star-o border-2 rounded-xl px-4 py-3 flex gap-3 hover:text-white hover:bg-orange-300 duration-300"></i>
+                            class="fa fa-star-o border-2 rounded-xl px-4 py-3 flex gap-3 hover:text-white hover:bg-[#ddb60a] duration-300"></i>
                     </span>
                 </div>
 
                 <div>
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-calendar px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-calendar px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -153,7 +153,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-calendar px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-calendar px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -168,7 +168,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-clock-o px-5 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-clock-o px-5 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -183,7 +183,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-calendar-check-o px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-calendar-check-o px-4 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -198,7 +198,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-map-marker px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-map-marker px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -212,7 +212,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-map-marker px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-map-marker px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -226,7 +226,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-tag px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-tag px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -240,7 +240,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-user px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-user px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -254,7 +254,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-folder-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-folder-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -268,7 +268,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-flag-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-flag-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -282,7 +282,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-phone px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-phone px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -296,7 +296,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-envelope-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-envelope-o px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -310,7 +310,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-y-2">
-                        <i class="fa fa-ticket px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-ticket px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -324,7 +324,7 @@
                     </div>
 
                     <div class="flex gap-3  p-3 md:p-5  border-t-2">
-                        <i class="fa fa-share-alt px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-orange-400"
+                        <i class="fa fa-share-alt px-7 py-3 flex gap-3 text-3xl md:text-4xl lg:text-5xl text-[#ddb60a]"
                             aria-hidden="true"></i>
                         <div>
                             <span class="uppercase font-semibold">
@@ -335,23 +335,23 @@
                                 <li class="flex gap-5 pt-5 text-white">
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <i
-                                            class="fa fa-facebook-f rounded-full border-2 border-orange-400 p-1 px-2 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                            class="fa fa-facebook-f rounded-full border-2 border-[#ddb60a] p-1 px-2 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                                     </a>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <i
-                                            class="fa fa-twitter rounded-full border-2 border-orange-400 p-1 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                            class="fa fa-twitter rounded-full border-2 border-[#ddb60a] p-1 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                                     </a>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <i
-                                            class="fa fa-instagram rounded-full border-2 border-orange-400 p-1  bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                            class="fa fa-instagram rounded-full border-2 border-[#ddb60a] p-1  bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                                     </a>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <i
-                                            class="fa fa-youtube-play rounded-full border-2 border-orange-400 p-1 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                            class="fa fa-youtube-play rounded-full border-2 border-[#ddb60a] p-1 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                                     </a>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <i
-                                            class="fa fa-linkedin rounded-full border-2 border-orange-400 p-1 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                                            class="fa fa-linkedin rounded-full border-2 border-[#ddb60a] p-1 bg-[#ddb60a] hover:bg-white hover:text-[#ddb60a] duration-300"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -360,7 +360,7 @@
                     </div>
                     <div class="flex  py-3 md:py-5 lg:py-10 justify-center">
                         <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                            class="inline-block px-6 lg:px-20 py-3 border-2 border-orange-400 bg-orange-300 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
+                            class="inline-block px-6 lg:px-20 py-3 border-2 border-[#ddb60a] bg-[#ddb60a] p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-[#ddb60a] hover:border-[#ddb60a]">
                             Add to Calendar
                         </a>
                     </div>
