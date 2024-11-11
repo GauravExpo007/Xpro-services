@@ -72,7 +72,7 @@
 
             <!-- Submit Button -->
             <div class="flex justify-center">
-                <button type="submit" class="bg-orange-500 hover:bg-white duration-500 text-white hover:text-orange-400 px-6 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-300">Submit</button>
+                <button type="submit" class="bg-orange-500 hover:bg-white duration-500 text-white hover:text-[#ddb60a] px-6 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-300">Submit</button>
             </div>
         </form>
     </div>

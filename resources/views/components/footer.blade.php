@@ -20,23 +20,23 @@
                 <li class="flex gap-5 pt-10">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-facebook-f rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa fa-facebook-f rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-twitter rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa fa-twitter rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-instagram rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa fa-instagram rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-youtube-play rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa fa-youtube-play rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-linkedin rounded-full border-2 border-orange-400 p-4 px-5 bg-orange-300 hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa fa-linkedin rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                 </li>
 
@@ -89,7 +89,7 @@
                 </p>
                 <div class="grid grid-cols-2 gap-5">
                     <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-orange-300 border-2 px-4 py-3 rounded-2xl duration-500"
+                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
                             href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>
@@ -98,7 +98,7 @@
                         </a>
                     </div>
                     <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-orange-300 border-2 px-4 py-3 rounded-2xl duration-500"
+                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
                             href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-windows text-6xl pr-5" aria-hidden="true"></i>
@@ -107,7 +107,7 @@
                         </a>
                     </div>
                     <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-orange-300 border-2 px-4 py-3 rounded-2xl duration-500"
+                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
                             href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-amazon text-6xl pr-5" aria-hidden="true"></i>
@@ -116,7 +116,7 @@
                         </a>
                     </div>
                     <div class="flex justify-center">
-                        <a class="flex gap-5 hover:bg-orange-300 border-2 px-4 py-3 rounded-2xl duration-500"
+                        <a class="flex gap-5 hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500"
                             href="#" target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
                             class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
                             <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>

@@ -16,7 +16,7 @@
             </button>
         </div>
         <!-- Navbar Links (hidden in mobile view) -->
-        <ul id="navbarMenu" class="hidden lg:flex flex-col lg:flex-row items-center lg:space-x-6 mt-4 lg:mt-0 lg:mr-52">
+        <ul id="navbarMenu" class="hidden font-bold lg:flex flex-col lg:flex-row items-center lg:space-x-6 mt-4 lg:mt-0 lg:mr-52">
             <li><a href="/" class="text-white hover:text-gray-300">HOME</a></li>
             <li><a href="#" class="text-white hover:text-gray-300">ABOUT US</a></li>
             <li><a href="./portfolio.html" class="text-white hover:text-gray-300">CALENDAR</a></li>
@@ -45,7 +45,7 @@
         </ul>
     </nav>
     <!-- Mobile Navbar Links (appears below header in mobile view) -->
-    <ul id="mobileNavbarMenu" class="hidden lg:hidden fixed inset-x-0 p-28  top-28 h-full bg-black bg-opacity-60 flex-col items-center space-y-10 z-60 text-4xl">
+    <ul id="mobileNavbarMenu" class="hidden lg:hidden fixed inset-x-0 p-28  top-28 h-full bg-black bg-opacity-60 duration-500 flex-col items-center space-y-10 z-60 text-4xl">
         <li><a href="/" class="text-white hover:text-gray-300">HOME</a></li>
         <li><a href="#" class="text-white hover:text-gray-300">ABOUT US</a></li>
         <li><a href="./portfolio.html" class="text-white hover:text-gray-300">CALENDAR</a></li>

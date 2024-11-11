@@ -3,7 +3,7 @@
     <div class="p-10 md:py-20 bg-black bg-opacity-50 font-poppins">
         <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
             <h2 class="text-3xl md:text-5xl lg:text-7xl text-center text-white">Popular <span
-                    class="text-orange-400 font-bold"> Venues</span></h2>
+                    class="text-[#ddb60a] font-bold"> Venues</span></h2>
             <p class="text-white">Find the ideal space to host your remarkable event and make lasting impressions.
                 experiences!</p>
         </section>
@@ -28,10 +28,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
                         </div>
@@ -47,10 +47,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
                         </div>
@@ -65,10 +65,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
                         </div>
@@ -83,10 +83,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
                         </div>
@@ -101,10 +101,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i> France</span>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
                         </div>
@@ -120,10 +120,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i>
                                     France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
@@ -139,10 +139,10 @@
                             <h3 class="text-xl md:text-2xl lg:text-3xl font-bold">Wedding of James & Helen</h3>
                             <div class="flex gap-5 md:gap-10 items-center">
                                 <a href="#"
-                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-orange-400 bg-orange-300 text-white font-semibold uppercase">Travel</a>
-                                <span><i class="fa fa-calendar text-orange-400" aria-hidden="true"></i> January 17,
+                                    class="inline-block my-6 px-6 py-3 border-2 rounded-full border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase">Travel</a>
+                                <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
                                     2024</span>
-                                <span><i class="fa fa-map-marker text-orange-300" aria-hidden="true"></i>
+                                <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i>
                                     France</span>
                             </div>
                             <p class="text-slate-500">Join us for the ultimate winter party at Megeve with live music, food, and drinks.</p>
@@ -155,17 +155,17 @@
             <!-- Carousel Controls -->
             <div class="flex justify-center items-center gap-5 md:gap-10 mt-6">
                 <button id="prevButton-events"
-                    class="bg-white border-2 border-orange-400 rounded-full p-3 text-orange-400 hover:bg-orange-300 hover:text-white transition">
+                    class="bg-white border-2 border-[#ddb60a] rounded-full p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
                     <i class="fa fa-chevron-left"></i>
                 </button>
 
                 <a href="#" target="_self" rel="noopener noreferrer" aria-label="All Events"
-                    class="inline-block px-6 py-3 border-2 rounded-xl border-orange-400 bg-white text-orange-400 font-semibold uppercase transition duration-300 ease-in-out hover:bg-orange-300 hover:text-white">
+                    class="inline-block px-6 py-3 border-2 rounded-xl border-[#ddb60a] bg-white text-[#ddb60a] font-semibold uppercase transition duration-300 ease-in-out hover:bg-[#ddb60a] hover:text-white">
                     All Events
                 </a>
 
                 <button id="nextButton-events"
-                    class="bg-white border-2 border-orange-400 rounded-full p-3 text-orange-400 hover:bg-orange-300 hover:text-white transition">
+                    class="bg-white border-2 border-[#ddb60a] rounded-full p-3 text-[#ddb60a] hover:bg-[#ddb60a] hover:text-white transition">
                     <i class="fa fa-chevron-right"></i>
                 </button>
             </div>

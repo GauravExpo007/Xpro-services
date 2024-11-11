@@ -1,7 +1,7 @@
 <div class="p-10 md:py-20 font-poppins">
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
         <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Why Choose <span
-                class="text-orange-400 font-bold">Xpro?</span></h2>
+                class="text-[#ddb60a] font-bold">Xpro?</span></h2>
         <p class="text-slate-500">We simplify planning, boost engagement, and create unforgettable experiences.</p>
     </section>
 
@@ -10,11 +10,11 @@
         {{-- card-1 --}}
         <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
             <div
-                class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+                class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
                 <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
             </div>
             <div class="text-center">
-                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                     Multiple Events
                 </h4>
                 <p class="text-slate-500">
@@ -27,11 +27,11 @@
         {{-- card-2 --}}
         <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
             <div
-                class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+                class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
                 <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
             </div>
             <div class="text-center">
-                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                     Event Management
                 </h4>
                 <p class="text-slate-500">
@@ -44,11 +44,11 @@
         {{-- card-3 --}}
         <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
             <div
-                class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+                class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
                 <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
             </div>
             <div class="text-center">
-                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                     Payment Gateways
                 </h4>
                 <p class="text-slate-500">
@@ -61,11 +61,11 @@
         {{-- card-4 --}}
         <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
             <div
-                class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+                class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
                 <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
             </div>
             <div class="text-center">
-                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+                <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                     Venue Management
                 </h4>
                 <p class="text-slate-500">
@@ -87,11 +87,11 @@
     {{-- card-1 --}}
     <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
         <div
-            class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+            class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
             <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
         </div>
         <div class="text-center">
-            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                 Speaker Management
             </h4>
             <p class="text-slate-500">
@@ -104,11 +104,11 @@
     {{-- card-2 --}}
     <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
         <div
-            class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+            class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
             <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
         </div>
         <div class="text-center">
-            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                 Multilingual Support
             </h4>
             <p class="text-slate-500">
@@ -121,11 +121,11 @@
     {{-- card-3 --}}
     <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
         <div
-            class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+            class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
             <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
         </div>
         <div class="text-center">
-            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                 Page Builder
             </h4>
             <p class="text-slate-500">
@@ -138,11 +138,11 @@
     {{-- card-4 --}}
     <section class="flex flex-col gap-5 md:gap-10 justify-center items-center">
         <div
-            class="border-2 rounded-full border-orange-300 text-orange-300 hover:text-white hover:bg-orange-300 px-11 py-11 duration-300">
+            class="border-2 rounded-full border-[#ddb60a] text-[#ddb60a] hover:text-white hover:bg-[#ddb60a] px-11 py-11 duration-300">
             <i class="fa fa-calendar text-7xl" aria-hidden="true"></i>
         </div>
         <div class="text-center">
-            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-orange-300 font-semibold">
+            <h4 class="uppercase text-xl md:text-2xl lg:text-3xl text-[#ddb60a] font-semibold">
                 Theme Customizer
             </h4>
             <p class="text-slate-500">
