@@ -113,10 +113,6 @@
         Thank you for your interest in our services! We’ve prepared a detailed brochure with valuable insights. Click the button below to download it directly.
       </p>
       
-      <!-- Brochure Preview Image -->
-      <div class="brochure-preview">
-        <img src="https://via.placeholder.com/100x140?text=Brochure" alt="Brochure Preview">
-      </div>
 
       <!-- Download Button -->
       <a href="#" class="button">Download Brochure</a>

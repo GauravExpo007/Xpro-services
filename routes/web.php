@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Mail\DownloadBrochure;
-
+use App\Http\Controllers\form\downloadBrochureController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,12 +30,10 @@ Route::get('/blog_list1', function () {
     return view('blog-list1');
 });
 
-// Route::get('/testroute', function() {
-//     $name = "Raju";
+// test route for testing purpuses
+Route::get('/test', function () {
+    return view('test.brochure');
+});
 
-//     // The email sending is done using the to method on the Mail facade
-//     Mail::to('tempemaileeeee@gmail.com')->send(new DownloadBrochure($name));
-// });
-
-
-// donwnload brochure
+// donwnload brochure route
+Route::post('/download-brochure', [downloadBrochureController::class, 'sendBrochure'])->name('download-brochure');
