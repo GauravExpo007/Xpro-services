@@ -86,28 +86,25 @@
       <img src="https://via.placeholder.com/120x40?text=Logo" alt="Company Logo">
       <h1>Thank You for Contacting Us!</h1>
     </div>
-
     <!-- Content Section -->
     <div class="content">
       <h2>Hello {{ $username }}</h2>
       <p>
-        We’ve received your message and appreciate you reaching out to us. Our team will review your inquiry and get back to you as soon as possible.
+        Thank you for downloading our brochure! We hope it provides valuable insights into how
+        our services can benefit you. If you have any questions or would like to discuss your needs in
+        more detail, feel free to get in touch.
       </p>
       <p>
-        If you have any urgent questions, please feel free to contact us directly at <a href="mailto:support@company.com" style="color: #ddb60a;">support@company.com</a> or by calling us at (123) 456-7890.
+        We will be excited to be a part of your journey!
       </p>
-      <p>
-        In the meantime, you can explore our website to learn more about our services and offerings.
-      </p>
-
       <!-- CTA Button -->
       <a href="https://yourwebsite.com" class="button" style="display: inline-block; padding: 12px 25px; background-color: #ddb60a; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;">Visit Our Website</a>
     </div>
 
     <!-- Footer Section with Social Media Icons -->
     <div class="footer">
-      <p>Best Regards,</p>
-      <p><strong>Xpro</strong></p>
+      <p>Warm regards,</p>
+      <p><strong>The Xpro Team</strong></p>
       <p>1234 Business Rd, Suite 100<br>City, State, 12345</p>
       <p><a href="#">Visit Our Website</a> | <a href="mailto:support@company.com">Contact Us</a></p>
       <div class="social-icons">

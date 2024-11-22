@@ -1,17 +1,16 @@
 @extends('template.layout')
 
 @section('content')
-  
-    @include('components.banner')
-    @include('components.event-section')
-    @include('components.featured-event')
-    @include('components.why-choose-us')
-    @include('components.popular-venue')
+    <x-banner />
+    <x-event-section />
+    <x-featured-event />
+    <x-why-choose-us />
+    <x-popular-venue />
 @endsection  
 
-    @push('scripts')
+@push('scripts')
    <!-- JavaScript for Navbar Toggle and Scroll Effect -->
-<script>
+    <script>
     document.addEventListener('DOMContentLoaded', function () {
         const navbarToggler = document.getElementById("navbarToggler");
         const navbarClose = document.getElementById("navbarClose");
@@ -41,6 +40,6 @@
             }
         });
     });
-</script>
-    @endpush
+    </script>
+@endpush
 

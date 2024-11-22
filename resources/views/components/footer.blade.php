@@ -133,12 +133,10 @@
     <div class=" border-t-2 border-zinc-500 pt-10 pb-5">
         <div class="px-5 md:px-20 flex flex-col md:flex-row justify-between items-center">
 
-            <img src="assets/Xpro Logo Final.jpg" alt="Xpro Services Company Logo" width="100" loading="eager" />
+            <img src="assets/xpro-logo-bg.jpg" alt="Xpro Services Company Logo" width="100" loading="eager" />
             <span>
                 Copyright © 2023 Xpro Services - All rights reserved
             </span>
         </div>
     </div>
-
-
 </div>

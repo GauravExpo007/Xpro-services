@@ -6,7 +6,6 @@
             unforgettable
             experiences!</p>
     </section>
-
     {{-- Card section --}}
     <!-- Carousel Section -->
     <section class="relative w-full overflow-hidden">
@@ -198,6 +197,7 @@
 
 </div>
 
+@push('scripts')
 <script>
     const prevButton = document.getElementById('prevButton');
     const nextButton = document.getElementById('nextButton');
@@ -230,7 +230,9 @@
         }
     });
 </script>
+@endpush
 
+@push('styles')
 <style>
     /* For larger screens (desktop and tablet), show 3 cards */
     @media screen and (min-width: 768px) {
@@ -259,3 +261,4 @@
         /* Hide the horizontal scrollbar */
     }
 </style>
+@endpush

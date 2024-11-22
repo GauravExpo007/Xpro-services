@@ -1,5 +1,4 @@
 <div class="bg-[#F9F9F9] font-poppins">
-
     {{-- Header Section --}}
     <section
         style="background-image: url('assets/events/event2.webp'); background-attachment: fixed; background-size: cover; background-position: center;">
@@ -424,6 +423,7 @@
     {{-- Card section-Ended --}}
 </div>
 
+@push('scripts')
 <script>
     function closeAllDropdowns() {
         document.getElementById("categoryDropdown").classList.add("hidden");
@@ -462,3 +462,4 @@
         }
     });
 </script>
+@endpush

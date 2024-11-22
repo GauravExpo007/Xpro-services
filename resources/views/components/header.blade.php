@@ -3,7 +3,7 @@
     <nav class="container mx-auto flex items-center justify-between p-4">
         <!-- Logo -->
         <a href="/" class="flex items-center">
-            <img src="assets/Xpro Logo Final png.png" alt="Xpro Services Company Logo" width="100"
+            <img src="assets/xpro-logo.png" alt="Xpro Services Company Logo" width="100"
                 class="bg-white bg-opacity-50 p-2" loading="eager"/>
         </a>
         <!-- Hamburger Menu for Mobile -->

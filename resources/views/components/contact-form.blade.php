@@ -3,7 +3,6 @@
 
     <div class="bg-orange-200 p-8 rounded-lg shadow-lg w-full max-w-3xl">
         <h1 class="text-3xl font-semibold text-center mb-6">Exhibition Registration Form</h1>
-
         <form id="exhibitionForm">
             <!-- First Row (Contact Name & Phone) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -76,15 +75,17 @@
             </div>
         </form>
     </div>
-
-    <script>
-        // JavaScript to handle form submission
-        document.getElementById('exhibitionForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            alert('Form Submitted Successfully!');
-            // You can add more functionality here to handle the form submission, such as sending the data to a server.
-        });
-    </script>
-
 </div>
+
+
+@push('scripts')
+<script>
+    // JavaScript to handle form submission
+    document.getElementById('exhibitionForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Form Submitted Successfully!');
+        // You can add more functionality here to handle the form submission, such as sending the data to a server.
+    });
+</script>
+@endpush
 

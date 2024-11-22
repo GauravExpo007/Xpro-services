@@ -7,7 +7,6 @@
             <p class="text-white">Find the ideal space to host your remarkable event and make lasting impressions.
                 experiences!</p>
         </section>
-
         <!-- Carousel Section -->
         <section class="relative w-full overflow-hidden">
             <!-- Carousel Container -->
@@ -16,8 +15,6 @@
                 <!-- Cards Wrapper -->
                 <div id="carousel-items-events" class="flex gap-5 md:gap-10 py-20">
                     <!-- Repeat structure for cards -->
-
-
                     <div class="w-full flex-shrink-0 flex flex-col justify-center card bg-slate-100">
                         <div>
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
@@ -165,7 +162,6 @@
                     <!-- Add more cards as needed -->
                 </div>
             </div>
-
             <!-- Carousel Controls -->
             <div class="flex justify-center items-center gap-5 md:gap-10 mt-6">
                 <button id="prevButton-events"
@@ -185,9 +181,40 @@
             </div>
         </section>
     </div>
-
 </div>
 
+@push('styles')
+<style>
+    /* For larger screens (desktop and tablet), show 3 cards */
+    @media screen and (min-width: 768px) {
+        .card {
+            min-width: calc(33.33% - 1rem);
+            /* 3 cards in a row */
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* For very large screens, you can increase the number of visible cards */
+    @media screen and (min-width: 1200px) {
+        .card {
+            min-width: calc(33.33% - 1rem);
+            /* 3 cards in a row */
+        }
+    }
+
+    /* Remove horizontal scrollbar */
+    #carousel-container-events {
+        overflow-x: hidden;
+        /* Hide the horizontal scrollbar */
+    }
+</style>
+@endpush
+
+@push('scripts')
 <script>
     const prevButtonEvents = document.getElementById('prevButton-events');
     const nextButtonEvents = document.getElementById('nextButton-events');
@@ -220,32 +247,5 @@
         }
     });
 </script>
+@endpush
 
-<style>
-    /* For larger screens (desktop and tablet), show 3 cards */
-    @media screen and (min-width: 768px) {
-        .card {
-            min-width: calc(33.33% - 1rem);
-            /* 3 cards in a row */
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-    }
-
-    /* For very large screens, you can increase the number of visible cards */
-    @media screen and (min-width: 1200px) {
-        .card {
-            min-width: calc(33.33% - 1rem);
-            /* 3 cards in a row */
-        }
-    }
-
-    /* Remove horizontal scrollbar */
-    #carousel-container-events {
-        overflow-x: hidden;
-        /* Hide the horizontal scrollbar */
-    }
-</style>

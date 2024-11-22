@@ -9,7 +9,6 @@
 <body>
     <form action="{{ route('download-brochure') }}" method="POST">
         @csrf
-        
         <input type="text" name="name">
         <input type="email" name="email">
         <input type="text" name="phone">

@@ -110,13 +110,17 @@
     <div class="content">
       <h2>Hello {{ $name }}</h2>
       <p>
-        Thank you for your interest in our services! We’ve prepared a detailed brochure with valuable insights. Click the button below to download it directly.
+        Thank you for your interest in our services! We’ve prepared a comprehensive brochure to
+        help you learn more about what we offer. Simply click the button below to download it
+        directly.
       </p>
       
 
       <!-- Download Button -->
       <a href="#" class="button">Download Brochure</a>
-      <p>If you have any questions or need further assistance, feel free to reach out to us at any time.</p>
+      <p>If you have any questions or need further assistance, please don’t hesitate to reach out.
+        We’re here to help!
+      </p>
       
       <!-- Secondary CTA -->
       <p><a href="#" style="color: #ddb60a; text-decoration: underline;">Explore More Services</a></p>
@@ -124,8 +128,8 @@
 
     <!-- Footer Section with Social Media Icons -->
     <div class="footer">
-      <p>Best Regards,</p>
-      <p><strong>Xpro</strong></p>
+      <p>Best regards,</p>
+      <p><strong>The Xpro Team</strong></p>
       <p>1234 Business Rd, Suite 100<br>City, State, 12345</p>
       <p><a href="#">Visit Our Website</a> | <a href="mailto:contact@company.com">Contact Us</a></p>
       <div class="social-icons">

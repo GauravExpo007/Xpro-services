@@ -1,16 +1,17 @@
+
+
 <!-- Banner Section -->
 <section class="relative items-center lg:flex-row-reverse font-poppins">
     <!-- Carousel Container -->
     <div id="carousel" class="relative w-full lg:h-[91%] overflow-hidden rounded-2xl">
         <!-- Banner Images -->
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-0.webp" alt="exhibition_stand_0" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-1.webp" alt="exhibition_stand_1" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-2.webp" alt="exhibition_stand_2" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-3.webp" alt="exhibition_stand_3" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-4.webp" alt="exhibition_stand_4" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-5.webp" alt="exhibition_stand_5" loading="eager"/>
-        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700" src="assets/banner/stand-6.webp" alt="exhibition_stand_6" loading="eager"/>
-
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-0.webp" alt="exhibition_stand_0" loading="eager"/>
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-1.webp" alt="exhibition_stand_1" />
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-2.webp" alt="exhibition_stand_2"/>
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-3.webp" alt="exhibition_stand_3" />
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-4.webp" alt="exhibition_stand_4" />
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-5.webp" alt="exhibition_stand_5" />
+        <img class="carousel-image h-full object-cover w-full hidden opacity-0 transition-opacity duration-700 lazyload" src="assets/blur.webp" data-src="assets/banner/stand-6.webp" alt="exhibition_stand_6" />
 
         <!-- Heading Overlay -->
         <div class="absolute flex flex-col gap-5 md:gap-10 lg:gap-20 top-32 md:top-96 w-full text-center p-4 bg-opacity-30 bg-black">
@@ -35,7 +36,9 @@
             </div>
         </div>
     </div>
+</section>
 
+@push('scripts')
     <!-- Carousel JavaScript -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -67,4 +70,4 @@
             carousel.addEventListener("mouseleave", startCarousel);
         });
     </script>
-</section>
+@endpush
