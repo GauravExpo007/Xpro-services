@@ -28,3 +28,7 @@ Route::get('/contact', function () {
 Route::get('/blog_list1', function () {
     return view('blog-list1');
 });
+
+Route::get('/about_us', function () {
+    return view('about');
+});

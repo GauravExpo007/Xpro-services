@@ -1,144 +1,96 @@
-<div class=" pt-20 bg-black text-white flex flex-col gap-10 md:gap-20">
-    <div class="p-5 md:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20  justify-around ">
-        <section class="flex flex-col gap-5 md:gap-16  text-center md:text-justify">
-            <div class="uppercase font-bold text-2xl xl:text-4xl">
-                Contact
-            </div>
-            <ul class="flex flex-col justify-items-start gap-5">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<div class="pt-20 bg-black text-white flex flex-col gap-10 md:gap-20">
+    <!-- Main Grid Section -->
+    <div class="p-5 md:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <!-- Contact Section -->
+        <section class="flex flex-col gap-6 items-center text-center md:items-start md:text-left">
+            <h2 class="uppercase font-bold text-2xl xl:text-4xl">Contact</h2>
+            <ul class="flex flex-col gap-4">
                 <li>
-                    <i class="fa fa-map-marker text-orange-400 pr-5" aria-hidden="true"></i> Walking Street, Los Angeles,
-                    California, USA
-                </li>
-                <li> <i class="fa fa-envelope text-orange-400 pr-3" aria-hidden="true"></i>
-                    <a href="mailto:enquiry@messemasters.com" target="_blank" class="nav-link"> enquiry@messemasters.com
-                    </a>
+                    <i class="fa fa-map-marker text-orange-400 pr-3"></i>
+                    Walking Street, Los Angeles, California, USA
                 </li>
                 <li>
-                    <i class="fa fa-phone text-orange-400 pr-5" aria-hidden="true"></i>
-                    <a href="tel:+41520663854">+41520 663854</a>
+                    <i class="fa fa-envelope text-orange-400 pr-3"></i>
+                    <a href="mailto:enquiry@messemasters.com" target="_blank" class="hover:underline">
+                        enquiry@messemasters.com
+                    </a>
                 </li>
-                <li class="flex gap-5 pt-10">
+                <li>
+                    <i class="fa fa-phone text-orange-400 pr-3"></i>
+                    <a href="tel:+41520663854" class="hover:underline">+41520 663854</a>
+                </li>
+                <li class="flex gap-5 pt-10 mx-auto lg:mx-0">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-facebook-f rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa-brands fa-facebook rounded-full border-2 border-orange-400 p-4 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-twitter rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa-brands fa-twitter rounded-full border-2 border-orange-400 p-4 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-instagram rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa-brands fa-instagram rounded-full border-2 border-orange-400 p-4 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-youtube-play rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa-brands fa-youtube rounded-full border-2 border-orange-400 p-4 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa fa-linkedin rounded-full border-2 border-orange-400 p-4 px-5 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
+                            class="fa-brands fa-linkedin rounded-full border-2 border-orange-400 p-4 bg-[#ddb60a] hover:bg-white hover:text-orange-400 duration-300"></i>
                     </a>
                 </li>
 
             </ul>
         </section>
 
-        <section class="flex flex-col gap-5 md:gap-16">
-            <div class="uppercase font-bold text-2xl xl:text-4xl text-center md:text-justify">
-                Latest Posts
-            </div>
-            <ul class="flex flex-col justify-items-start gap-5">
-                <li class="flex gap-5 ">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
-                    <div> <span>
-                            Top 20 Event and Conference Countries</span>
-                        <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
-                                aria-hidden="true"></i> Lists <i class="fa fa-clock-o text-orange-400"></i> 4 Min
-                            Read</span>
-                    </div>
-                </li>
-                <li class="flex gap-5">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
-                    <div> <span> 5 Ideas for Fun Family Activities</span>
-                        <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
-                                aria-hidden="true"></i> Lists <i class="fa fa-clock-o text-orange-400"></i> 4 Min
-                            Read</span>
-                    </div>
-                </li>
-                <li class="flex gap-5">
-                    <img class="size-24" src="assets/events/event1.webp" alt="exhibition_stand_1" loading="eager" />
-                    <div> <span>
-                            Budgets for Business Events</span>
-                        <span class="flex gap-3 items-center"> <i class="fa fa-folder text-orange-400"
-                                aria-hidden="true"></i> News <i class="fa fa-clock-o text-orange-400"></i> 4 Min
-                            Read</span>
-                    </div>
-                </li>
-
+        <!-- Company Section -->
+        <section class="flex flex-col gap-6 items-center md:items-start">
+            <h2 class="uppercase font-bold text-2xl xl:text-4xl text-center md:text-left">Company</h2>
+            <ul class="flex flex-col items-center md:items-start gap-4">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#" class="hover:underline">About Us</a></li>
+                <li><a href="#" class="hover:underline">What We Offer</a></li>
+                <li><a href="#" class="hover:underline">Upcoming Events</a></li>
+                <li><a href="#" class="hover:underline">Blogs</a></li>
+                <li><a href="#" class="hover:underline">Contact Us</a></li>
             </ul>
         </section>
-        <section class="flex flex-col gap-5 md:gap-16 text-center md:text-justify">
-            <div class="uppercase font-bold text-2xl xl:text-4xl">
-                Our Apps
-            </div>
-            <div class="flex flex-col gap-3">
-                <p>
-                    Discover Eventchamp's innovative apps! Enhance attendee experience, manage events on-the-go, and
-                    stay
-                    connected through our suite of mobile solutions.
-                </p>
-                <div class="grid grid-cols-2 gap-5">
-                    <div class="flex justify-center items-center">
-                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
-                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                            class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
-                            <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>
-                            <div> Download Via <br />
-                                Apple Store </div>
-                        </a>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
-                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                            class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
-                            <i class="fa fa-windows text-6xl pr-5" aria-hidden="true"></i>
-                            <div> Download Via <br />
-                                Window </div>
-                        </a>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
-                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                            class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
-                            <i class="fa fa-amazon text-6xl pr-5" aria-hidden="true"></i>
-                            <div> Download Via <br />
-                                Amazon </div>
-                        </a>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <a class="flex hover:bg-[#ddb60a] border-2 px-4 py-3 rounded-2xl duration-500" href="#"
-                            target="_blank" rel="noopener noreferrer" aria-label="Download Brochure"
-                            class="inline-block px-6 py-3 p-2 rounded-full text-white font-semibold transition duration-300 ease-in-out hover:bg-white hover:text-orange-400 hover:border-orange-400">
-                            <i class="fa fa-apple text-6xl pr-5" aria-hidden="true"></i>
-                            <div> Download Via <br />
-                                Apple Store </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
 
+        <!-- Services Section -->
+        <section class="flex flex-col gap-6 items-center md:items-start">
+            <h2 class="uppercase font-bold text-2xl xl:text-4xl text-center md:text-left">Services</h2>
+            <ul class="flex flex-col items-center md:items-start gap-4">
+                <li><a href="#" class="hover:underline">Consultation</a></li>
+                <li><a href="#" class="hover:underline">Custom Exhibition Stand</a></li>
+                <li><a href="#" class="hover:underline">Modular Exhibition Stand</a></li>
+                <li><a href="#" class="hover:underline">3D Booth Design</a></li>
+                <li><a href="#" class="hover:underline">Country Pavillion</a></li>
+            </ul>
         </section>
 
+        <!-- Our Apps Section -->
+        <section class="flex flex-col gap-6 items-center text-center md:items-start md:text-left">
+            <h2 class="uppercase font-bold text-2xl xl:text-4xl">Our Apps</h2>
+            <p>Discover Eventchamp's innovative apps! Enhance attendee experience, manage events on-the-go, and stay
+                connected through our suite of mobile solutions.</p>
+            <div class="w-full max-w-sm">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d578046.3500709039!2d-119.9657230926732!3d38.964723083181546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80980f5b92f334d5%3A0x95e47f2afb9d1329!2sWalker%20River%20Reservation%2C%20Schurz%2C%20NV!5e1!3m2!1sen!2sus!4v1733229734549!5m2!1sen!2sus"
+                    width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </div>
-    <div class=" border-t-2 border-zinc-500 pt-10 pb-5">
-        <div class="px-5 md:px-20 flex flex-col md:flex-row justify-between items-center">
 
-            <img src="assets/Xpro Logo Final.jpg" alt="Xpro Services Company Logo" width="100" loading="eager" />
-            <span>
-                Copyright © 2023 Xpro Services - All rights reserved
-            </span>
+    <!-- Bottom Section -->
+    <div class="border-t border-zinc-500 pt-6 pb-4">
+        <div class="px-5 md:px-20 flex flex-col md:flex-row justify-between items-center">
+            <img src="assets/White Png.png" alt="Xpro Services Company Logo" width="100" loading="eager" />
+            <span class="text-center md:text-left">Copyright © 2023 Xpro Services - All rights reserved</span>
         </div>
     </div>
-
-
 </div>

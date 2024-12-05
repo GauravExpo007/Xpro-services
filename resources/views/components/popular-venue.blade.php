@@ -1,10 +1,11 @@
 <div
     style="background-image: url('assets/events/event2.webp'); background-attachment: fixed; background-size: cover; background-position: center;">
-    <div class="p-10 md:py-20 bg-black bg-opacity-50 font-poppins">
+    <div class="p-10  bg-black bg-opacity-50 font-poppins">
         <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
             <h2 class="text-3xl md:text-5xl lg:text-7xl text-center text-white">Popular <span
                     class="text-[#ddb60a] font-bold"> Venues</span></h2>
-            <p class="text-white">Find the ideal space to host your remarkable event and make lasting impressions.
+            <p class="text-white text-center">Find the ideal space to host your remarkable event and make lasting
+                impressions.
                 experiences!</p>
         </section>
 
