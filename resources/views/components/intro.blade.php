@@ -27,8 +27,8 @@
 
                         <div class="fa-3x text-white lg:group-hover:text-yellow-200">
                             <i class="fa-solid fa-cog fa-spin"></i>
-                            <i class="fa-solid fa-cog fa-spin" style="--fa-animation-direction: reverse;"></i>
-                            <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i>
+                            <i class="fa-solid fa-cog fa-spin fa-spin-reverse"></i>
+                            <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration:15s;"></i>
                         </div>
                         <p class="text-white group-hover:text-yellow-200 text-4xl">
                             Custom Stands

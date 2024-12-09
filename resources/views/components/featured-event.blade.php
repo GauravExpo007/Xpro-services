@@ -148,12 +148,14 @@
 
                 <!-- Card 6 -->
                 <div class="w-full max-w-xl flex-shrink-0 flex flex-col justify-center card bg-slate-100">
+
                     <div>
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-6">
                             <img src="assets/events/event6.webp" alt="exhibition_stand_6" class="w-full h-auto"
                                 loading="lazy" />
                         </a>
                     </div>
+
                     <div class="relative flex flex-col justify-center p-5">
                         <h3 class="text-2xl md:text-3xl font-bold">Wedding of James & Helen</h3>
                         <div class="flex items-center space-x-6 text-gray-600">
@@ -162,14 +164,18 @@
                             <div class="flex gap-5">
 
                                 <span><i class="fa fa-calendar text-[#ddb60a]" aria-hidden="true"></i> January 17,
-                                    2024</span>
+                                    2024
+                                </span>
                                 <span><i class="fa fa-map-marker text-[#ddb60a]" aria-hidden="true"></i> France</span>
                             </div>
                         </div>
+
                         <p class="text-gray-500 text-lg">Join us for the ultimate winter party at Megeve with live
                             music,
                             food,
-                            and drinks.</p>
+                            and drinks.
+                        </p>
+
                     </div>
                 </div>
 

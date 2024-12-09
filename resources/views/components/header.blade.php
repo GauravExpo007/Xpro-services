@@ -15,6 +15,7 @@
                 <i class="fa fa-times text-4xl"></i>
             </button>
         </div>
+
         <!-- Navbar Links (hidden in mobile view) -->
         <ul id="navbarMenu"
             class="hidden font-bold lg:flex flex-col lg:flex-row items-center lg:space-x-6 mt-4 lg:mt-0 lg:mr-52">

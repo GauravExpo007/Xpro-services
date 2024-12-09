@@ -1,4 +1,4 @@
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 
 <div class="pt-20 bg-black text-white flex flex-col gap-10 md:gap-20">
     <!-- Main Grid Section -->

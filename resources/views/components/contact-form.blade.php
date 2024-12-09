@@ -127,6 +127,7 @@
         });
     </script>
 </div>
+
 <div>
     <img class="object-cover object-center mx-auto" src="assets/bg/map.webp" alt="exhibition_stand_1" loading="lazy" />
 </div>
