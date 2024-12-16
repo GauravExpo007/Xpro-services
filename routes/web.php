@@ -32,3 +32,7 @@ Route::get('/blog_list1', function () {
 Route::get('/about_us', function () {
     return view('about');
 });
+
+Route::get('/calendar', function () {
+    return view('calendar');
+});

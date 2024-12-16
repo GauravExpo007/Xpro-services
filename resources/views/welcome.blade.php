@@ -4,11 +4,13 @@
     @include('components.banner')
     @include('components.about')
     @include('components.intro')
-    @include('components.event-section')
-    @include('components.featured-event')
     @include('components.why-choose-us')
     @include('components.popular-venue')
+    @include('components.event-section')
     @include('components.testimonials')
+    @include('components.counter')
+    @include('components.blog')
+    @include('components.home-contact-form')
 @endsection
 
 @push('scripts')

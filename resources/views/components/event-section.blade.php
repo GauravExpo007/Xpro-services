@@ -44,9 +44,10 @@
         </div>
 
         {{-- Card section --}}
-        <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 md:px-10">
+        <div
+            class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-20 md:px-10 lg:px-20 xl:px-24 mx-auto">
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <!-- Image Section -->
                 <div class="relative w-full">
                     <a href="/event-1" target="_self" rel="noopener noreferrer" aria-label="event-1">
@@ -62,7 +63,7 @@
                 </div>
 
                 <!-- Event Details -->
-                <div class="w-full max-w-xl p-6 space-y-4">
+                <div class="w-fit max-w-xl p-5 space-y-4">
                     <!-- Title -->
                     <h3 class="text-2xl md:text-3xl font-bold text-gray-800">
                         Megeve Winter Party
@@ -96,7 +97,7 @@
 
 
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <div class="relative w-full">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
                         <img class="w-full h-auto" src="assets/events/event2.webp" alt="exhibition_stand_2"
@@ -111,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="w-full p-6 space-y-4">
+                <div class="w-full p-5 space-y-4">
                     <h3 class="text-2xl md:text-3xl font-bold">
                         Eventchamp Conference
                     </h3>
@@ -142,7 +143,7 @@
             </div>
 
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <div class="relative w-full">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
                         <img class="w-full h-auto" src="assets/events/event3.webp" alt="exhibition_stand_3"
@@ -157,7 +158,7 @@
                     </div>
                 </div>
 
-                <div class="w-full p-6 space-y-4">
+                <div class="w-full p-5 space-y-4">
                     <h3 class="text-2xl md:text-3xl font-bold">
                         Walking on the Mountain
                     </h3>
@@ -188,7 +189,7 @@
             </div>
 
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <div class="relative w-full">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
                         <img class="relative" src="assets/events/event4.webp" alt="exhibition_stand_4"
@@ -203,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="w-full p-6 space-y-4">
+                <div class="w-full p-5 space-y-4">
                     <h3 class="text-2xl md:text-3xl font-bold">
                         Soccer Cup Final
                     </h3>
@@ -234,7 +235,7 @@
             </div>
 
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <div class="relative w-full">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
                         <img class="w-full h-auto" src="assets/events/event5.webp" alt="exhibition_stand_5"
@@ -249,7 +250,7 @@
                     </div>
                 </div>
 
-                <div class="w-full p-6 space-y-4">
+                <div class="w-full p-5 space-y-4">
                     <h3 class="text-2xl md:text-3xl font-bold">
                         Xtra Technology Conference
                     </h3>
@@ -281,7 +282,7 @@
             </div>
 
             <div
-                class="w-full max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 m-4">
+                class="w-fit max-w-xl flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform md:hover:scale-105 md:m-4">
                 <div class="relative w-full">
                     <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
                         <img class="w-full h-auto" src="assets/events/event6.webp" alt="exhibition_stand_6"
@@ -296,14 +297,14 @@
                     </div>
                 </div>
 
-                <div class="w-full p-6 space-y-4">
+                <div class="w-full p-5 space-y-4">
                     <h3 class="text-2xl md:text-3xl font-bold">
                         The Future of Currencies
                     </h3>
                     <div class="flex gap-5 items-center">
                         <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1"
                             class="px-5 py-2 border-2 border-[#ddb60a] bg-[#ddb60a] text-white font-semibold rounded-full transition duration-300 uppercase">
-                            Technology
+                            Tech
                         </a>
                         <div class="flex gap-5">
                             <span class="flex items-center space-x-2">
@@ -341,7 +342,7 @@
     </section>
 
     {{-- Differnt Events Section  --}}
-    <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 justify-center items-center">
+    {{-- <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 justify-center items-center">
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 md:px-10">
             <div class="relative">
                 <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-1">
@@ -389,7 +390,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
 
 </div>

@@ -1,7 +1,7 @@
 <div class="p-10 md:py-20 bg-[#e7e4e4] font-poppins">
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
         <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Featured <span
-                class="text-[#ddb60a] font-bold">Events</span></h2>
+                class="text-[#ddb60a] font-bold">Blogs</span></h2>
         <p class="text-gray-500 text-lg">Exciting concerts, workshops, festivals & more - dive into a world of
             unforgettable
             experiences!</p>
@@ -192,7 +192,7 @@
 
             <a href="#" target="_self" rel="noopener noreferrer" aria-label="All Events"
                 class="inline-block px-6 py-3 border-2 rounded-xl border-[#ddb60a] bg-white text-[#ddb60a] font-semibold uppercase transition duration-300 ease-in-out hover:bg-[#ddb60a] hover:text-white">
-                All Events
+                All
             </a>
 
             <button id="nextButton"

@@ -1,7 +1,7 @@
 @extends('template.layout')
 
 @section('content')
-    @include('components.event1-inside-page')
+    @include('components.calendar')
 @endsection
 
 @push('scripts')

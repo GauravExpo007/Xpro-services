@@ -47,7 +47,7 @@
                     if (window.scrollY > 100) {
                         header.classList.add("bg-black", "bg-opacity-90");
                     } else {
-                        header.classList.remove("bg-black", "bg-opacity-90");
+                        header.classList.remove("bg-black", "bg-opacity-100");
                     }
                 });
             }

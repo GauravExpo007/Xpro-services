@@ -8,7 +8,7 @@
 
     <!-- Testimonial Slider -->
     <div class="swiper-container testimonial-slider w-full pb-16 md:w-4/5 overflow-hidden relative">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper my-10 lg:my-20">
             <!-- Testimonial 1 -->
             <div class="swiper-slide flex flex-col justify-center items-center text-center gap-4">
                 <img src="assets/sponsors/sponsor-1.webp" alt="Xpro Services Company Logo" class="w-36 mx-auto"
@@ -109,29 +109,29 @@
 
     // Video Slider
     // Initialize Swiper for the Video Slider
-    const videoSlider = new Swiper('.video-slider', {
-        slidesPerView: 1, // Default for small screens
-        spaceBetween: 50, // Wide gap between videos
-        loop: true, // Enable infinite loop
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true, // Allow users to click on pagination dots
-        },
-        breakpoints: {
-            768: { // Medium screens (tablets)
-                slidesPerView: 2, // Show 2 videos
-                spaceBetween: 50, // Same gap for medium screens
-            },
-            1024: { // Large screens (desktops)
-                slidesPerView: 3, // Show 3 videos
-                spaceBetween: 50, // Same gap for large screens
-            },
-        },
-    });
+    // const videoSlider = new Swiper('.video-slider', {
+    //     slidesPerView: 1, // Default for small screens
+    //     spaceBetween: 50, // Wide gap between videos
+    //     loop: true, // Enable infinite loop
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true, // Allow users to click on pagination dots
+    //     },
+    //     breakpoints: {
+    //         768: { // Medium screens (tablets)
+    //             slidesPerView: 2, // Show 2 videos
+    //             spaceBetween: 50, // Same gap for medium screens
+    //         },
+    //         1024: { // Large screens (desktops)
+    //             slidesPerView: 3, // Show 3 videos
+    //             spaceBetween: 50, // Same gap for large screens
+    //         },
+    //     },
+    // });
 </script>
 
 <style>
@@ -157,6 +157,7 @@
     /* Swiper Pagination */
     .swiper-pagination {
         position: absolute;
+        top: 50px;
         bottom: 10px;
         /* Position at the bottom of the slider */
         left: 0;
@@ -171,7 +172,7 @@
         opacity: 0.5;
         width: 10px;
         height: 10px;
-        margin: 0 5px;
+        margin: 5px 5px;
         /* Add spacing between dots */
     }
 
