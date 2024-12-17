@@ -1,7 +1,7 @@
 <div class="p-10 md:py-20 font-poppins">
     <section class="my-10 md:my-14 flex flex-col gap-5 md:gap-10 lg:gap-20 justify-center items-center">
-        <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Why Choose <span
-                class="text-[#ddb60a] font-bold">Xpro?</span></h2>
+        <h2 class="text-3xl md:text-5xl lg:text-7xl text-center">Our Working <span
+                class="text-[#ddb60a] font-bold">Process</span></h2>
         <p class="text-slate-500">We simplify planning, boost engagement, and create unforgettable experiences.</p>
     </section>
 

@@ -24,7 +24,7 @@
             and created premium exhibition stand designs over the years.
         </p>
 
-        <a href="#" target="_self" rel="noopener noreferrer" aria-label="All Events"
+        <a href="/about_us" target="_self" rel="noopener noreferrer" aria-label="All Events"
             class="inline-block my-10 px-6 py-3 border-2 rounded-xl border-[#ddb60a] bg-white text-[#ddb60a] font-semibold uppercase transition duration-300 ease-in-out hover:bg-[#ddb60a] hover:text-white">
             Know More
         </a>

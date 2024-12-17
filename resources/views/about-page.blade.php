@@ -1,16 +1,7 @@
 @extends('template.layout')
 
 @section('content')
-    @include('components.banner')
-    @include('components.about')
-    @include('components.intro')
-    @include('components.our-working-process')
-    @include('components.popular-venue')
-    @include('components.event-section')
-    @include('components.testimonials')
-    @include('components.counter')
-    @include('components.blog')
-    @include('components.home-contact-form')
+    @include('components.about-page')
 @endsection
 
 @push('scripts')
@@ -54,9 +45,9 @@
             if (header) {
                 window.addEventListener("scroll", function() {
                     if (window.scrollY > 100) {
-                        header.classList.add("bg-black", "bg-opacity-100");
+                        header.classList.add("bg-black", "bg-opacity-90");
                     } else {
-                        header.classList.remove("bg-black", "bg-opacity-90");
+                        header.classList.remove("bg-black", "bg-opacity-100");
                     }
                 });
             }

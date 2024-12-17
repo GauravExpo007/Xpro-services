@@ -24,11 +24,11 @@
                 </a> --}}
 
                 <!-- Download Brochure Button -->
-                <a href="https://iceagency.co.uk/pop-up-retail-solutions/" target="_blank" rel="noopener noreferrer"
+                {{-- <a href="https://iceagency.co.uk/pop-up-retail-solutions/" target="_blank" rel="noopener noreferrer"
                     aria-label="Download Brochure"
                     class="inline-block px-6 py-3 border-2 border-white text-white font-semibold rounded-lg transition duration-300 ease-in-out hover:bg-white hover:text-black hover:border-transparent">
                     Download Brochure
-                </a>
+                </a> --}}
             </div>
         </div>
     </div>
@@ -76,8 +76,7 @@
     <!-- Form Section -->
 
     <div class="bg-[#F9F9F9] p-5 lg:p-8 rounded-lg shadow-lg w-full md:w-1/2 m-5">
-        <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-center mb-6">Exhibition
-            Registration Form</h2>
+        <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-center mb-6">Contact Us</h2>
 
         <form id="exhibitionForm" class="px-5 max-w-5xl">
             <!-- First Row (Contact Name & Phone) -->
@@ -88,10 +87,11 @@
                         class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
                 </div>
                 <div class="hover:scale-105 duration-700">
-                    <label for="phone" class="block text-xl font-medium text-gray-700">Phone</label>
-                    <input type="tel" id="phone" name="phone"
+                    <label for="companyName" class="block text-xl font-medium text-gray-700">Company Name</label>
+                    <input type="text" id="companyName" name="companyName"
                         class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
                 </div>
+
             </div>
 
             <!-- Second Row (Email & City) -->
@@ -102,23 +102,95 @@
                         class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
                 </div>
                 <div class="hover:scale-105 duration-700">
-                    <label for="city" class="block text-xl font-medium text-gray-700">City</label>
-                    <input type="text" id="city" name="city"
-                        class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
+                    <label for="phone" class="block text-xl font-medium text-gray-700"
+                        onchange="updateCountryCode(this)">Phone</label>
+                    <div class="flex mt-1">
+                        <!-- Country Code Dropdown -->
+                        <select id="country-code" name="country-code"
+                            class="w-[67px] p-2 border border-gray-300 rounded-l-md bg-white text-gray-700">
+                            <option value="+1" data-country="United States">+1 (United States)</option>
+                            <option value="+44" data-country="United Kingdom">+44 (United Kingdom)</option>
+                            <option value="+91" data-country="India">+91 (India)</option>
+                            <option value="+61" data-country="Australia">+61 (Australia)</option>
+                            <option value="+81" data-country="Japan">+81 (Japan)</option>
+                            <option value="+49" data-country="Germany">+49 (Germany)</option>
+                            <option value="+33" data-country="France">+33 (France)</option>
+                            <option value="+39" data-country="Italy">+39 (Italy)</option>
+                            <option value="+86" data-country="China">+86 (China)</option>
+                            <option value="+7" data-country="Russia">+7 (Russia)</option>
+                            <option value="+55" data-country="Brazil">+55 (Brazil)</option>
+                            <option value="+27" data-country="South Africa">+27 (South Africa)</option>
+                            <option value="+34" data-country="Spain">+34 (Spain)</option>
+                            <option value="+62" data-country="Indonesia">+62 (Indonesia)</option>
+                            <option value="+234" data-country="Nigeria">+234 (Nigeria)</option>
+                            <option value="+52" data-country="Mexico">+52 (Mexico)</option>
+                            <option value="+63" data-country="Philippines">+63 (Philippines)</option>
+                            <option value="+64" data-country="New Zealand">+64 (New Zealand)</option>
+                            <option value="+82" data-country="South Korea">+82 (South Korea)</option>
+                            <option value="+60" data-country="Malaysia">+60 (Malaysia)</option>
+                            <option value="+65" data-country="Singapore">+65 (Singapore)</option>
+                            <option value="+93" data-country="Afghanistan">+93 (Afghanistan)</option>
+                            <option value="+355" data-country="Albania">+355 (Albania)</option>
+                            <option value="+213" data-country="Algeria">+213 (Algeria)</option>
+                            <option value="+376" data-country="Andorra">+376 (Andorra)</option>
+                            <option value="+244" data-country="Angola">+244 (Angola)</option>
+                            <option value="+54" data-country="Argentina">+54 (Argentina)</option>
+                            <option value="+43" data-country="Austria">+43 (Austria)</option>
+                            <option value="+973" data-country="Bahrain">+973 (Bahrain)</option>
+                            <option value="+880" data-country="Bangladesh">+880 (Bangladesh)</option>
+                            <option value="+32" data-country="Belgium">+32 (Belgium)</option>
+                            <option value="+359" data-country="Bulgaria">+359 (Bulgaria)</option>
+                            <option value="+1-246" data-country="Barbados">+1-246 (Barbados)</option>
+                            <option value="+95" data-country="Myanmar">+95 (Myanmar)</option>
+                            <option value="+964" data-country="Iraq">+964 (Iraq)</option>
+                            <option value="+98" data-country="Iran">+98 (Iran)</option>
+                            <option value="+353" data-country="Ireland">+353 (Ireland)</option>
+                            <option value="+972" data-country="Israel">+972 (Israel)</option>
+                            <option value="+962" data-country="Jordan">+962 (Jordan)</option>
+                            <option value="+254" data-country="Kenya">+254 (Kenya)</option>
+                            <option value="+965" data-country="Kuwait">+965 (Kuwait)</option>
+                            <option value="+961" data-country="Lebanon">+961 (Lebanon)</option>
+                            <option value="+352" data-country="Luxembourg">+352 (Luxembourg)</option>
+                            <option value="+960" data-country="Maldives">+960 (Maldives)</option>
+                            <option value="+230" data-country="Mauritius">+230 (Mauritius)</option>
+                            <option value="+92" data-country="Pakistan">+92 (Pakistan)</option>
+                            <option value="+507" data-country="Panama">+507 (Panama)</option>
+                            <option value="+351" data-country="Portugal">+351 (Portugal)</option>
+                            <option value="+974" data-country="Qatar">+974 (Qatar)</option>
+                            <option value="+966" data-country="Saudi Arabia">+966 (Saudi Arabia)</option>
+                            <option value="+94" data-country="Sri Lanka">+94 (Sri Lanka)</option>
+                            <option value="+46" data-country="Sweden">+46 (Sweden)</option>
+                            <option value="+41" data-country="Switzerland">+41 (Switzerland)</option>
+                            <option value="+255" data-country="Tanzania">+255 (Tanzania)</option>
+                            <option value="+66" data-country="Thailand">+66 (Thailand)</option>
+                            <option value="+971" data-country="United Arab Emirates">+971 (United Arab Emirates)
+                            </option>
+                            <option value="+58" data-country="Venezuela">+58 (Venezuela)</option>
+                            <option value="+263" data-country="Zimbabwe">+263 (Zimbabwe)</option>
+
+                        </select>
+                        <!-- Phone Number Input -->
+                        <input type="tel" id="phone" name="phone"
+                            class="p-2 w-full border-t border-r border-b border-gray-300 rounded-r-md" required
+                            placeholder="Enter your phone number">
+                    </div>
                 </div>
+
+
             </div>
 
             <!-- Third Row (Company Name & Exhibition Name) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-                <div class="hover:scale-105 duration-700">
-                    <label for="companyName" class="block text-xl font-medium text-gray-700">Company Name</label>
-                    <input type="text" id="companyName" name="companyName"
-                        class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
-                </div>
+
                 <div class="hover:scale-105 duration-700">
                     <label for="exhibitionName" class="block text-xl font-medium text-gray-700">Exhibition
                         Name</label>
                     <input type="text" id="exhibitionName" name="exhibitionName"
+                        class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
+                </div>
+                <div class="hover:scale-105 duration-700">
+                    <label for="city" class="block text-xl font-medium text-gray-700">City</label>
+                    <input type="text" id="city" name="city"
                         class="mt-1 p-2 w-full border border-gray-300 rounded-md" required>
                 </div>
             </div>
