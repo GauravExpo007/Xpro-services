@@ -67,11 +67,11 @@
 
                 document.write(
                     eventDetails.map((event, index) => `
-                        <div class="flex flex-col justify-center items-center transform transition-transform duration-700 hover:scale-110 hover:-translate-y-2 animate-fade-in-up delay-${index * 150}">
+                        <div class=" group flex flex-col justify-center items-center transform transition-transform duration-700 hover:scale-110 hover:-translate-y-2 animate-fade-in-up delay-${index * 150}">
                             <a href="#" target="_self" rel="noopener noreferrer" aria-label="event-${index + 1}">
                                 <img src="${event.img}" alt="exhibition_stand_${index + 1}" class="w-[150px] h-[150px] rounded-full border-4 border-[#ddb60a] hover:shadow-[0px_0px_20px_5px_#ddb60a] duration-500" loading="lazy" />
                             </a>
-                            <p class="text-center text-white mt-3 text-lg font-semibold hover:underline md:text-2xl lg:text-3xl">${event.country}</p>
+                            <p class="text-center text-white mt-3 text-lg font-semibold group-hover:underline underline-offset-8  md:text-2xl lg:text-3xl">${event.country}</p>
                         </div>`).join('')
                 );
             </script>

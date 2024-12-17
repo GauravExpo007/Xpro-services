@@ -50,11 +50,11 @@
             <h2 class="uppercase font-bold text-4xl text-center md:text-left">Company</h2>
             <ul class="flex flex-col items-center md:items-start gap-4 text-slate-200">
                 <li><a href="#" class="hover:text-[#DDB60A]">Home</a></li>
-                <li><a href="#" class="hover:text-[#DDB60A]">About Us</a></li>
+                <li><a href="/about_us" class="hover:text-[#DDB60A]">About Us</a></li>
                 <li><a href="#" class="hover:text-[#DDB60A]">What We Offer</a></li>
                 <li><a href="#" class="hover:text-[#DDB60A]">Upcoming Events</a></li>
-                <li><a href="#" class="hover:text-[#DDB60A]">Blogs</a></li>
-                <li><a href="#" class="hover:text-[#DDB60A]">Contact Us</a></li>
+                <li><a href="/blog_list1" class="hover:text-[#DDB60A]">Blogs</a></li>
+                <li><a href="/contact" class="hover:text-[#DDB60A]">Contact Us</a></li>
             </ul>
         </section>
 

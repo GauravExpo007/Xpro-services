@@ -22,9 +22,9 @@
             class="hidden font-bold lg:flex flex-col lg:flex-row items-center lg:space-x-6 mt-4 lg:mt-0 lg:mr-52">
             <li><a href="/" class="text-white hover:text-gray-300">HOME</a></li>
             <li><a href="/about_us" class="text-white hover:text-gray-300">ABOUT US</a></li>
-            <li><a href="/calendar" class="text-white hover:text-gray-300">CALENDAR</a></li>
+            {{-- <li><a href="/calendar" class="text-white hover:text-gray-300">CALENDAR</a></li> --}}
             <li><a href="/blog_list1" class="text-white hover:text-gray-300">BLOGS</a></li>
-            <li><a href="https://www.expostandservice.com" class="text-white hover:text-gray-300">RESOURCES</a></li>
+            {{-- <li><a href="https://www.expostandservice.com" class="text-white hover:text-gray-300">RESOURCES</a></li> --}}
 
             {{-- <li class="relative group">
                 <a href="/blog_list1" class="text-white hover:text-gray-300 flex items-center">
@@ -58,9 +58,9 @@
         class="hidden lg:hidden fixed inset-x-0 py-28 px-16 top-[81px] h-full bg-black bg-opacity-90 duration-500 flex-col items-center space-y-10 z-60 text-4xl">
         <li><a href="/" class="text-white hover:text-gray-300">HOME</a></li>
         <li><a href="/about_us" class="text-white hover:text-gray-300">ABOUT US</a></li>
-        <li><a href="/calendar" class="text-white hover:text-gray-300">CALENDAR</a></li>
+        {{-- <li><a href="/calendar" class="text-white hover:text-gray-300">CALENDAR</a></li> --}}
         <li><a href="/blog_list1" class="text-white hover:text-gray-300">BLOGS</a></li>
-        <li><a href="https://www.expostandservice.com" class="text-white hover:text-gray-300">RESOURCES</a></li>
+        {{-- <li><a href="https://www.expostandservice.com" class="text-white hover:text-gray-300">RESOURCES</a></li> --}}
         <li><a href="./contact" class="text-white hover:text-gray-300">CONTACT US</a></li>
     </ul>
 </header>

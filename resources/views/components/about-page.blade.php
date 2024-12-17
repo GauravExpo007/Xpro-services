@@ -17,14 +17,13 @@
     </section>
 
 
-    <div
-        class="w-full md:w-[90%] flex flex-col justify-center items-center mx-auto gap-5 md:gap-10 lg:gap-20 py-10 md:py-20">
+    <div class="w-full flex flex-col justify-center items-center mx-auto gap-5 md:gap-10 lg:gap-20 py-10 md:py-20">
         <!-- About Company Overview -->
-        <div class="flex flex-col md:flex-row items-center gap-6">
+        <div class="flex flex-col md:flex-row items-center gap-6 md:w-[90%]">
             <img src="/assets/about/grow-better.webp" alt="Company Overview"
                 class="w-full md:w-1/2 rounded-lg shadow-md p-5 m-5 hover:scale-105 duration-500" />
-            <div class="flex flex-col gap-5 md:gap-10">
-                <h3 class="w-2/3 text-3xl md:text-4xl font-semibold text-center md:text-left">
+            <div class="flex flex-col gap-5 md:gap-10 p-5">
+                <h3 class=" md:w-2/3 text-3xl md:text-4xl font-semibold text-center md:text-left">
                     Our Mission: Helping Millions of Organizations Grow Better
                 </h3>
                 <p class="text-justify leading-8 text-slate-700">
@@ -37,11 +36,11 @@
         </div>
 
         <!-- Achievements and Experience -->
-        <div class="flex flex-col md:flex-row-reverse items-center gap-6 mt-10">
+        <div class="flex flex-col md:flex-row-reverse items-center gap-6 mt-10 md:w-[90%]">
             <img src="/assets/about/Rangan-Halligan.webp" alt="Achievements"
                 class="w-full md:w-1/2 rounded-lg shadow-md p-5 m-5 hover:scale-105 duration-500" />
-            <div class="flex flex-col gap-5 md:gap-10">
-                <h3 class="w-2/3 text-3xl md:text-4xl font-semibold text-center md:text-left">
+            <div class="flex flex-col gap-5 md:gap-10 p-5">
+                <h3 class="md:w-2/3 text-3xl md:text-4xl font-semibold text-center md:text-left">
                     Our Story
                 </h3>
                 <p class="text-justify leading-8 text-slate-700">
@@ -100,48 +99,89 @@
         </section>
 
 
-
-
         <!-- Why Choose Us Section -->
-        <div class="w-full mt-10">
-            <h3 class="text-2xl md:text-4xl font-bold text-center mb-6">Why Choose Us?</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+        <section class="w-full mt-10 md:w-[90%] mx-auto px-4">
+            <h3
+                class="text-3xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 text-transparent bg-clip-text">
+                Why Choose Us?
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+                <!-- Card 1: Comprehensive Solutions -->
                 <div
-                    class="bg-white p-5 md:p-10 rounded-lg shadow-lg shadow-black w-full max-w-4xl mx-auto mt-4 md:hover:scale-105 duration-700">
-                    <h4 class="font-bold text-xl md:text-2xl mb-4">Comprehensive Solutions</h4>
-                    <p>From concept development to final installation, we manage every aspect of your exhibition stand
-                        project.</p>
+                    class="group relative bg-white rounded-2xl shadow-lg overflow-hidden p-8 transform transition duration-500 hover:scale-105 hover:rotate-1">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-20 group-hover:opacity-40 transition duration-500">
+                    </div>
+                    <h4
+                        class="font-bold text-xl md:text-2xl mb-4 text-slate-800 group-hover:text-blue-600 transition duration-300">
+                        Comprehensive Solutions
+                    </h4>
+                    <p class="text-slate-600">From concept development to final installation, we manage every aspect of
+                        your exhibition stand project.</p>
                 </div>
+
+                <!-- Card 2: Global Presence -->
                 <div
-                    class="bg-white p-5 md:p-10 rounded-lg shadow-lg shadow-black w-full max-w-4xl mx-auto mt-4 md:hover:scale-105 duration-700">
-                    <h4 class="font-bold text-xl md:text-2xl mb-4">Global Presence</h4>
-                    <p>With offices and facilities in multiple countries, we offer local expertise with a global
-                        perspective.</p>
+                    class="group relative bg-white rounded-2xl shadow-lg overflow-hidden p-8 transform transition duration-500 hover:scale-105 hover:-rotate-1">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-green-600 to-green-400 opacity-20 group-hover:opacity-40 transition duration-500">
+                    </div>
+                    <h4
+                        class="font-bold text-xl md:text-2xl mb-4 text-slate-800 group-hover:text-green-600 transition duration-300">
+                        Global Presence
+                    </h4>
+                    <p class="text-slate-600">With offices and facilities in multiple countries, we offer local
+                        expertise with a global perspective.</p>
                 </div>
+
+                <!-- Card 3: Innovative Designs -->
                 <div
-                    class="bg-white p-5 md:p-10 rounded-lg shadow-lg shadow-black w-full max-w-4xl mx-auto mt-4 md:hover:scale-105 duration-700">
-                    <h4 class="font-bold text-xl md:text-2xl mb-4">Innovative Designs</h4>
-                    <p>Our creative team ensures your booth stands out with captivating designs tailored to your brand’s
-                        needs.</p>
+                    class="group relative bg-white rounded-2xl shadow-lg overflow-hidden p-8 transform transition duration-500 hover:scale-105 hover:rotate-1">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-purple-600 to-purple-400 opacity-20 group-hover:opacity-40 transition duration-500">
+                    </div>
+                    <h4
+                        class="font-bold text-xl md:text-2xl mb-4 text-slate-800 group-hover:text-purple-600 transition duration-300">
+                        Innovative Designs
+                    </h4>
+                    <p class="text-slate-600">Our creative team ensures your booth stands out with captivating designs
+                        tailored to your brand’s needs.</p>
                 </div>
+
+                <!-- Card 4: Unmatched Quality -->
                 <div
-                    class="bg-white p-5 md:p-10 rounded-lg shadow-lg shadow-black w-full max-w-4xl mx-auto mt-4 md:hover:scale-105 duration-700">
-                    <h4 class="font-bold text-xl md:text-2xl mb-4">Unmatched Quality</h4>
-                    <p>Using state-of-the-art technology and premium materials, we guarantee exceptional results that
-                        meet the highest standards.</p>
+                    class="group relative bg-white rounded-2xl shadow-lg overflow-hidden p-8 transform transition duration-500 hover:scale-105 hover:-rotate-1">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-red-600 to-red-400 opacity-20 group-hover:opacity-40 transition duration-500">
+                    </div>
+                    <h4
+                        class="font-bold text-xl md:text-2xl mb-4 text-slate-800 group-hover:text-red-600 transition duration-300">
+                        Unmatched Quality
+                    </h4>
+                    <p class="text-slate-600">Using state-of-the-art technology and premium materials, we guarantee
+                        exceptional results that meet the highest standards.</p>
                 </div>
+
+                <!-- Card 5: Customer-Centric Approach -->
                 <div
-                    class="bg-white p-5 md:p-10 rounded-lg shadow-lg shadow-black w-full max-w-4xl mx-auto mt-4 md:hover:scale-105 duration-700">
-                    <h4 class="font-bold text-xl md:text-2xl mb-4">Customer-Centric Approach</h4>
-                    <p>Your satisfaction is our priority, and we work tirelessly to exceed your expectations at every
-                        step.</p>
+                    class="group relative bg-white rounded-2xl shadow-lg overflow-hidden p-8 transform transition duration-500 hover:scale-105 hover:rotate-1">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-yellow-600 to-yellow-400 opacity-20 group-hover:opacity-40 transition duration-500">
+                    </div>
+                    <h4
+                        class="font-bold text-xl md:text-2xl mb-4 text-slate-800 group-hover:text-yellow-600 transition duration-300">
+                        Customer-Centric Approach
+                    </h4>
+                    <p class="text-slate-600">Your satisfaction is our priority, and we work tirelessly to exceed your
+                        expectations at every step.</p>
                 </div>
             </div>
-        </div>
+        </section>
+
 
         <!-- Vision and Mission -->
-        <div class="w-full mt-10 text-slate-700">
-            <h3 class="text-2xl md:text-4xl font-bold text-center mb-6">Our Vision & Mission</h3>
+        <div class="w-full mt-10 text-slate-700 md:w-[90%] p-5">
+            <h3 class="text-3xl md:text-5xl font-extrabold text-center mb-8 text-slate-800">Our Vision & Mission</h3>
             <div class="flex flex-col md:flex-row items-center gap-6">
                 <img src="/assets/ex2.webp" alt="Vision and Mission" class="w-full md:w-1/2 rounded-lg shadow-md" />
                 <p class="text-justify md:text-left leading-8">
@@ -159,28 +199,73 @@
         </div>
 
         <!-- Testimonials Section -->
-        <div class="w-full mt-10 text-slate-700">
-            <h3 class="text-2xl md:text-4xl font-bold text-center mb-6">What Our Clients Say</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <p class="italic">"Sensations Worldwide transformed our vision into reality. Their team was
-                        professional, and the final exhibition stand was beyond our expectations!"</p>
-                    <span class="block text-right font-bold mt-4">- John D., Marketing Head</span>
+        <div class="w-full mt-10 text-slate-700 px-4 md:px-8 lg:px-12 md:w-[90%]">
+            <h3 class="text-3xl md:text-5xl font-extrabold text-center mb-8 text-slate-800">
+                What Our Clients Say
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div
+                    class="relative bg-white border-2 border-[#ddb60a] p-6 rounded-2xl shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+                    <div
+                        class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-[#ddb60a] to-[#caa709] rounded-t-2xl">
+                    </div>
+                    <p
+                        class="italic text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
+                        "Sensations Worldwide transformed our vision into reality. Their team was professional, and the
+                        final exhibition stand was beyond our expectations!"
+                    </p>
+                    <span
+                        class="block text-right font-bold text-[#caa709] mt-4 group-hover:text-[#ddb60a] transition-colors duration-300">
+                        - John D., Marketing Head
+                    </span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <p class="italic">"Their innovative designs and attention to detail set them apart. The entire
-                        process was seamless, and the outcome was impressive."</p>
-                    <span class="block text-right font-bold mt-4">- Sarah L., Event Manager</span>
+
+                <!-- Testimonial 2 -->
+                <div
+                    class="relative bg-white border-2 border-[#ddb60a] p-6 rounded-2xl shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+                    <div
+                        class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-[#ddb60a] to-[#caa709] rounded-t-2xl">
+                    </div>
+                    <p
+                        class="italic text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
+                        "Their innovative designs and attention to detail set them apart. The entire process was
+                        seamless, and the outcome was impressive."
+                    </p>
+                    <span
+                        class="block text-right font-bold text-[#caa709] mt-4 group-hover:text-[#ddb60a] transition-colors duration-300">
+                        - Sarah L., Event Manager
+                    </span>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div
+                    class="relative bg-white border-2 border-[#ddb60a] p-6 rounded-2xl shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+                    <div
+                        class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-[#ddb60a] to-[#caa709] rounded-t-2xl">
+                    </div>
+                    <p
+                        class="italic text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
+                        "Outstanding service and execution. The team was responsive, creative, and delivered on time. I
+                        couldn't have asked for more!"
+                    </p>
+                    <span
+                        class="block text-right font-bold text-[#caa709] mt-4 group-hover:text-[#ddb60a] transition-colors duration-300">
+                        - Emily R., Project Director
+                    </span>
                 </div>
             </div>
         </div>
 
         <!-- Call to Action -->
-        <a href="#" target="_self" rel="noopener noreferrer" aria-label="Learn More About Us"
-            class="inline-block my-10 px-6 py-3 border-2 rounded-xl border-[#ddb60a] bg-[#ddb60a] text-white font-semibold uppercase shadow-md transition duration-300 ease-in-out hover:bg-[#c9a008]">
-            Learn More
-        </a>
+        <div class="flex justify-center my-10">
+            <a href="#" target="_self" rel="noopener noreferrer" aria-label="Learn More About Us"
+                class="inline-block px-8 py-3 border-2 border-[#ddb60a] rounded-full text-[#ddb60a] font-bold text-lg uppercase shadow-lg transform transition duration-300 hover:bg-[#ddb60a] hover:text-white hover:-translate-y-2 hover:shadow-2xl">
+                Learn More
+            </a>
+        </div>
 
+        @include('components.home-contact-form')
     </div>
 
 </section>

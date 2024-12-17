@@ -16,6 +16,10 @@
     {{-- <link rel="stylesheet" href="style/banner.css"> --}}
     @vite('resources/css/app.css')
 
+    {{-- Testimonial-Section --}}
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     {{-- custom css --}}
     @stack('styles')
 </head>
