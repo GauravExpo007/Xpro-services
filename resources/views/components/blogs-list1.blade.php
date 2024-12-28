@@ -368,41 +368,43 @@
     {{-- Card section-Ended --}}
 </div>
 
-<script>
-    function closeAllDropdowns() {
-        document.getElementById("categoryDropdown").classList.add("hidden");
-        document.getElementById("locationDropdown").classList.add("hidden");
-        document.getElementById("statusDropdown").classList.add("hidden");
-        document.getElementById("sortByDropdown").classList.add("hidden");
-    }
-
-    function toggleDropdown(dropdownId) {
-        closeAllDropdowns();
-        const dropdown = document.getElementById(dropdownId);
-        dropdown.classList.toggle("hidden");
-        const button = dropdown.previousElementSibling;
-        button.setAttribute('aria-expanded', dropdown.classList.contains("hidden") ? 'false' : 'true');
-    }
-
-    function selectOption(buttonId, option) {
-        document.getElementById(buttonId).innerHTML = option + ' <i class="fa fa-angle-down pl-5 md:pl-10"></i>';
-        closeAllDropdowns();
-
-        // Set hidden input value dynamically based on the selection
-        const inputName = buttonId.replace('Button', 'Input');
-        document.getElementById(inputName).value = option;
-    }
-
-    // Close dropdowns if clicked outside
-    document.addEventListener("click", function(event) {
-        const isClickInsideAnyDropdown = ["categoryButton", "locationButton", "statusButton", "sortByButton"]
-            .some(id =>
-                document.getElementById(id).contains(event.target) ||
-                document.getElementById(id.replace("Button", "Dropdown")).contains(event.target)
-            );
-
-        if (!isClickInsideAnyDropdown) {
-            closeAllDropdowns();
+@push('scripts')
+    <script>
+        function closeAllDropdowns() {
+            document.getElementById("categoryDropdown").classList.add("hidden");
+            document.getElementById("locationDropdown").classList.add("hidden");
+            document.getElementById("statusDropdown").classList.add("hidden");
+            document.getElementById("sortByDropdown").classList.add("hidden");
         }
-    });
-</script>
+
+        function toggleDropdown(dropdownId) {
+            closeAllDropdowns();
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle("hidden");
+            const button = dropdown.previousElementSibling;
+            button.setAttribute('aria-expanded', dropdown.classList.contains("hidden") ? 'false' : 'true');
+        }
+
+        function selectOption(buttonId, option) {
+            document.getElementById(buttonId).innerHTML = option + ' <i class="fa fa-angle-down pl-5 md:pl-10"></i>';
+            closeAllDropdowns();
+
+            // Set hidden input value dynamically based on the selection
+            const inputName = buttonId.replace('Button', 'Input');
+            document.getElementById(inputName).value = option;
+        }
+
+        // Close dropdowns if clicked outside
+        document.addEventListener("click", function(event) {
+            const isClickInsideAnyDropdown = ["categoryButton", "locationButton", "statusButton", "sortByButton"]
+                .some(id =>
+                    document.getElementById(id).contains(event.target) ||
+                    document.getElementById(id.replace("Button", "Dropdown")).contains(event.target)
+                );
+
+            if (!isClickInsideAnyDropdown) {
+                closeAllDropdowns();
+            }
+        });
+    </script>
+@endpush

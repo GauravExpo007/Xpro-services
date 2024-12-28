@@ -37,3 +37,7 @@ Route::get('/about_us', function () {
 Route::get('/calendar', function () {
     return view('calendar');
 });
+
+Route::get('/thank-you', function () {
+    return view('thank-you');
+});
